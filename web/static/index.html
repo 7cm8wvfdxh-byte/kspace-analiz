@@ -91,14 +91,17 @@
         <div style="display:flex; gap:16px; margin-bottom:16px;">
           <div style="flex:1;">
             <label>Study 1 (Baseline)</label>
-            <select id="studySelect1" class="upload-input" style="width:100%"></select>
+            <select id="studySelect1" class="select-input" style="width:100%"></select>
           </div>
           <div style="flex:1;">
             <label>Study 2 (Comparison)</label>
-            <select id="studySelect2" class="upload-input" style="width:100%"></select>
+            <select id="studySelect2" class="select-input" style="width:100%"></select>
           </div>
         </div>
-        <button class="btn" style="width:100%" onclick="runComparison()">Run Comparison</button>
+        <div id="compareWarning" style="display:none; color:red; margin-bottom:10px; text-align:center;">
+          En az 2 adet çalışmaya ihtiyacınız var (Need 2+ Studies).
+        </div>
+        <button id="compareBtn" class="btn" style="width:100%" onclick="runComparison()">Run Comparison</button>
       </div>
 
       <div id="comparisonResults" style="display:none; margin-top:20px;">

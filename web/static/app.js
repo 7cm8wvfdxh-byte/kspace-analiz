@@ -355,13 +355,21 @@ async function loadComparisonOptions() {
         const studies = await res.json();
 
         if (studies.length < 2) {
-            document.getElementById('compareWarning').style.display = 'block';
-            document.getElementById('compareBtn').disabled = true;
-            document.getElementById('compareBtn').innerText = "Need 2+ Studies";
+            const warningEl = document.getElementById('compareWarning');
+            const btnEl = document.getElementById('compareBtn');
+            if (warningEl) warningEl.style.display = 'block';
+            if (btnEl) {
+                btnEl.disabled = true;
+                btnEl.innerText = "Need 2+ Studies";
+            }
         } else {
-            document.getElementById('compareWarning').style.display = 'none';
-            document.getElementById('compareBtn').disabled = false;
-            document.getElementById('compareBtn').innerText = "Run Comparison";
+            const warningEl = document.getElementById('compareWarning');
+            const btnEl = document.getElementById('compareBtn');
+            if (warningEl) warningEl.style.display = 'none';
+            if (btnEl) {
+                btnEl.disabled = false;
+                btnEl.innerText = "Run Comparison";
+            }
         }
 
         const opts = studies.map(s => `<option value="${s.id}">${s.metadata?.series_description || s.id} (${s.created_at})</option>`).join('');

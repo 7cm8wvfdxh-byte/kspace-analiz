@@ -158,6 +158,8 @@
       </div>
       <div style="display:flex;gap:8px;">
         <button class="back-btn" onclick="closeDashboard()">&#x1F3E0; Home / Back</button>
+        <button class="btn btn-sm" style="background:#8b5cf6;" onclick="openAIInsights(currentStudyId)">&#x1F9E0; AI
+          Insights</button>
         <button class="btn btn-sm" style="background:#4CAF50;" onclick="openVolumeView(currentStudyId)">&#x1F9CA; 3D
           View</button>
         <button class="btn btn-danger btn-sm" onclick="deleteCurrentStudy()">&#x1F5D1; Delete</button>
@@ -191,12 +193,48 @@
         <tbody id="transitionsBody"></tbody>
       </table>
     </div>
+
   </main>
+
+  <!-- ============ AI Insights Modal ============ -->
+  <div id="aiModal" class="modal" style="display:none;">
+    <div class="modal-content" style="width: 80%; max-width: 900px;">
+      <div class="modal-header">
+        <h2>AI Insights: K-Space Virtual Biopsy</h2>
+        <button class="close-btn" onclick="closeAIModal()">&times;</button>
+      </div>
+      <div style="padding: 20px;">
+        <div class="card" style="margin-bottom: 20px; border-left: 4px solid #8b5cf6;">
+          <h3>Image-Free Pathology Detection (Experimental)</h3>
+          <p style="color:var(--text-muted); font-size:14px; margin-top:8px;">This module analyzes the raw frequency
+            space directly using CNN similarity algorithms, bypassing traditional MR image reconstruction to identify
+            anomalies at the mathematical level.</p>
+          <div id="aiPredictions" style="margin-top: 15px; max-height:200px; overflow-y:auto;"></div>
+        </div>
+
+        <div class="card">
+          <h3>K-Space Fingerprint (Slice 1)</h3>
+          <p style="color:var(--text-muted); font-size:14px; margin-top:8px; margin-bottom:15px;">A 10-dimensional
+            vector combining Radial Energy, Phase Complexity, and Angular Entropy.</p>
+          <div id="aiFingerprintViz"
+            style="display: flex; gap: 4px; align-items: flex-end; height: 120px; background: rgba(0,0,0,0.2); padding: 10px; border-radius: 8px;">
+            <!-- Bars will be injected here via JS -->
+          </div>
+          <div
+            style="display:flex; justify-content: space-between; margin-top: 8px; font-size: 11px; color: var(--text-muted);">
+            <span>Low Freq (Core)</span>
+            <span>High Freq (Edges)</span>
+            <span>Phase/Entropy</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Toast container -->
   <div class="toast-container" id="toasts"></div>
 
-  <script src="/static/app.js"></script>
+  <script src="/static/app.js?v=2"></script>
 </body>
 
 </html>

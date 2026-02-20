@@ -586,6 +586,63 @@ function update3DView() {
     scene.add(pointCloud);
 }
 
+// ---- AI Insights & Virtual Biopsy ----
+async function openAIInsights(studyId) {
+    if (!studyId) return;
+    document.getElementById('aiModal').style.display = 'flex'; // Changed to flex to use core modal styles better
+    showToast('Loading AI Insights...', 'info');
+
+    try {
+        const res = await fetch(`/api/ai-insights/${studyId}`);
+        if (!res.ok) {
+            throw new Error(await res.text());
+        }
+
+        const data = await res.json();
+        const insights = data.insights;
+
+        // Render Predictions
+        const predictionsHtml = insights.predictions.map(p => `
+            <div style="display:flex; justify-content:space-between; padding:8px; border-bottom:1px solid var(--border); background: ${p.flagged ? 'rgba(239,68,68,0.1)' : 'transparent'};">
+                <span>Slice ${p.slice_index + 1}</span>
+                <span style="color: ${p.flagged ? 'var(--accent-red)' : 'var(--accent-green)'}">
+                    Anomaly Prob: ${(p.anomaly_probability * 100).toFixed(1)}% 
+                    ${p.flagged ? '⚠️ FLAG' : '✓ CLEAR'}
+                </span>
+            </div>
+        `).join('');
+        document.getElementById('aiPredictions').innerHTML = predictionsHtml || '<p>No predictions available.</p>';
+
+        // Render Fingerprint (Slice 1)
+        if (insights.fingerprints && insights.fingerprints.length > 0) {
+            const fp = insights.fingerprints[0];
+            const maxVal = Math.max(...fp, 1e-5); // prevent div by zero
+
+            const barsHtml = fp.map((val, idx) => {
+                const heightPct = (val / maxVal) * 100;
+                // Color coding: Blue for radial, Purple for phase/entropy
+                const color = idx < 8 ? 'var(--accent-blue)' : 'var(--accent-purple)';
+                return `
+                    <div style="flex:1; display:flex; flex-direction:column; justify-content:flex-end; align-items:center;">
+                        <span style="font-size:10px; color:var(--text-muted); margin-bottom:4px;">${val.toFixed(2)}</span>
+                        <div style="width:100%; height:${Math.max(5, heightPct)}%; background:${color}; border-radius:4px 4px 0 0; transition: height 0.5s;"></div>
+                    </div>
+                `;
+            }).join('');
+
+            document.getElementById('aiFingerprintViz').innerHTML = barsHtml;
+        }
+
+    } catch (err) {
+        showToast('AI Insights Error: ' + err.message, 'error');
+        closeAIModal();
+    }
+}
+
+function closeAIModal() {
+    document.getElementById('aiModal').style.display = 'none';
+}
+
 // ---- Init ----
 document.addEventListener('DOMContentLoaded', () => {
     loadStudies();

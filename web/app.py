@@ -170,6 +170,7 @@ def _run_analysis(study_id: str):
                 'radiomics': results['radiomics'],
                 'phase': results['phase'],
                 'plots': results['plots'],
+                'ai_insights': results.get('ai_insights', None)
             }
     except Exception as e:
         study['status'] = 'error'
@@ -218,6 +219,27 @@ async def get_report(study_id: str):
         'report_time': datetime.now().isoformat(),
     }
 
+
+@app.get("/api/ai-insights/{study_id}")
+async def get_ai_insights(study_id: str):
+    """Get Deep K-Space Virtual Biopsy and Pathology Detection results."""
+    studies = load_studies()
+    if study_id not in studies:
+        raise HTTPException(status_code=404, detail="Study not found")
+
+    study = studies[study_id]
+    if study['status'] != 'completed':
+        raise HTTPException(status_code=400, detail="Analysis not completed yet")
+
+    # ai_insights were added to study['results']['ai_insights']
+    insights = study['results'].get('ai_insights', None)
+    if not insights:
+        raise HTTPException(status_code=404, detail="AI Insights not available for this study (re-analyze needed).")
+        
+    return {
+        'study_id': study_id,
+        'insights': insights
+    }
 
 # ---------------------------------------------------------------------------
 # NEW ENDPOINTS: COMPARISON & 3D

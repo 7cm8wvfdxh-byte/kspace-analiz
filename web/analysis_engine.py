@@ -19,6 +19,12 @@ import uuid
 import csv
 from datetime import datetime
 
+# Import our new AI K-Space module
+import sys
+import os
+sys.path.append(os.path.dirname(__file__))
+from ai_detector import generate_kspace_fingerprint, image_free_pathology_detection
+
 
 def load_dicom_series(path):
     """Load DICOM series from directory or DICOMDIR."""
@@ -524,7 +530,30 @@ def run_full_analysis(dicom_path, output_dir):
     diff_results = differential_analysis(images)
     radiomics = kspace_radiomics(images)
     phase_results = phase_coherence_analysis(images)
-
+    
+    # ----------------------------------------------------
+    # NEW: AI VIRTUAL BIOPSY & IMAGE-FREE DETECTION
+    # ----------------------------------------------------
+    ai_fingerprints = []
+    for img in images:
+        kspace = compute_kspace(img)
+        fp = generate_kspace_fingerprint(np.abs(kspace), np.angle(kspace))
+        ai_fingerprints.append(fp)
+        
+    # For a simulated baseline, we use the average of the first two and last two slices 
+    # (assuming they are usually normal tissue)
+    # If the series is too short, just use the first slice.
+    if len(ai_fingerprints) >= 4:
+        baseline_fp = np.mean([ai_fingerprints[0], ai_fingerprints[1], ai_fingerprints[-1], ai_fingerprints[-2]], axis=0)
+    elif len(ai_fingerprints) > 0:
+        baseline_fp = ai_fingerprints[0]
+    else:
+        baseline_fp = []
+        
+    ai_predictions = []
+    if len(baseline_fp) > 0:
+        ai_predictions = image_free_pathology_detection(ai_fingerprints, baseline_fingerprint=baseline_fp)
+    
     # Generate plots
     plots = generate_plots(images, diff_results, radiomics, phase_results, output_dir)
 
@@ -567,6 +596,10 @@ def run_full_analysis(dicom_path, output_dir):
         'radiomics': clean_radiomics,
         'phase': clean_phase,
         'plots': plots,
+        'ai_insights': {
+            'fingerprints': ai_fingerprints,
+            'predictions': ai_predictions
+        }
     }
 
 

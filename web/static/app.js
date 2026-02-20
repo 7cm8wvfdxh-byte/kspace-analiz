@@ -451,8 +451,14 @@ function initThreeJS(points) {
     container.innerHTML = '';
 
     if (typeof THREE === 'undefined') {
-        container.innerHTML = '<div style="color:red; padding:20px; text-align:center;">Three.js library failed to load.<br>Please check network connection or file path (/static/three.min.js).</div>';
-        showToast('Three.js library not found', 'error');
+        const script = document.createElement('script');
+        script.src = 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js';
+        script.onload = () => initThreeJS(points);
+        script.onerror = () => {
+            container.innerHTML = '<div style="color:red; padding:20px; text-align:center;">Three.js failed to load.<br>Check internet connection.</div>';
+            showToast('Three.js library failed to load', 'error');
+        };
+        document.head.appendChild(script);
         return;
     }
 

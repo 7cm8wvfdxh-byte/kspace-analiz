@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+python-multipart
+numpy
+pydicom
+scipy
+scikit-image
+matplotlib
+pandas
+plotly
+jinja2
+aiofiles

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>K-Space Analysis Platform</title>
+  <meta name="description"
+    content="DICOM K-Space analysis tool for radiology research. Upload, analyze, and generate reports.">
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/three.min.js"></script>
+</head>
+
+<body>
+
+  <!-- ============ Header ============ -->
+  <header class="header">
+    <div class="header-brand" onclick="goHome()" style="cursor: pointer;" title="Go to Home">
+      <div class="logo">K</div>
+      <div>
+        <h1>K-Space Analysis Platform</h1>
+        <div class="subtitle">Radiology Research Tool</div>
+      </div>
+    </div>
+    <div class="header-status">
+      <span class="status-dot"></span>
+      <span>System Ready</span>
+    </div>
+  </header>
+
+  <!-- ============ Main ============ -->
+  <main class="main" id="mainView">
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab active" data-tab="upload" onclick="switchTab('upload')">
+        <span class="tab-icon">&#x2B06;</span> Upload
+      </button>
+      <button class="tab" data-tab="studies" onclick="switchTab('studies')">
+        <span class="tab-icon">&#x1F4CB;</span> Studies
+      </button>
+      <button class="tab" data-tab="compare" onclick="switchTab('compare')">
+        <span class="tab-icon">&#x2696;</span> Compare
+      </button>
+    </div>
+
+    <!-- Upload Tab -->
+    <div class="tab-content active" id="tab-upload">
+      <div class="upload-zone" id="uploadZone">
+        <span class="upload-icon">&#x1F4E4;</span>
+        <div class="upload-title">DICOM Upload</div>
+        <div class="upload-subtitle">Drag & drop DICOM files or select:</div>
+        <div style="margin-top:10px;">
+          <button class="btn" onclick="document.getElementById('fileInput').click()">Select Files</button>
+          <button class="btn" onclick="document.getElementById('folderInput').click()">Select Folder</button>
+        </div>
+        <input type="file" id="fileInput" class="upload-input" multiple accept="*" onchange="handleFileSelect(event)">
+        <input type="file" id="folderInput" class="upload-input" webkitdirectory directory multiple
+          onchange="handleFileSelect(event)">
+      </div>
+
+      <!-- Upload progress -->
+      <div id="uploadProgress" style="display:none; margin-top:16px;">
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">&#x23F3; Uploading...</span>
+            <span id="uploadCount" class="badge badge-analyzing">0 files</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Studies Tab -->
+    <div class="tab-content" id="tab-studies">
+      <div id="studyList" class="study-list">
+        <div class="empty-state">
+          <div class="icon">&#x1F50D;</div>
+          <h3>No studies yet</h3>
+          <p>Upload DICOM files to begin analysis</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Compare Tab -->
+    <div class="tab-content" id="tab-compare">
+      <div class="card">
+        <h3>Select Studies to Compare</h3>
+        <div style="display:flex; gap:16px; margin-bottom:16px;">
+          <div style="flex:1;">
+            <label>Study 1 (Baseline)</label>
+            <select id="studySelect1" class="upload-input" style="width:100%"></select>
+          </div>
+          <div style="flex:1;">
+            <label>Study 2 (Comparison)</label>
+            <select id="studySelect2" class="upload-input" style="width:100%"></select>
+          </div>
+        </div>
+        <button class="btn" style="width:100%" onclick="runComparison()">Run Comparison</button>
+      </div>
+
+      <div id="comparisonResults" style="display:none; margin-top:20px;">
+        <div class="plot-card">
+          <h3>Comparison Result</h3>
+          <img id="compPlot" src="" style="width:100%">
+        </div>
+        <div class="card">
+          <h3>Metrics</h3>
+          <div id="compMetrics"></div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ============ 3D View Modal ============ -->
+  <div id="volumeModal" class="modal" style="display:none;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>3D Volumetric Analysis</h2>
+        <button class="close-btn" onclick="closeVolumeModal()">&times;</button>
+      </div>
+      <div id="volumeCanvasContainer" style="width:100%; height:500px; background:#000;"></div>
+      <div style="padding:10px; text-align:center; color:#ccc; font-size:12px;">
+        Rotate with mouse. Scroll to zoom. High intensity anomalies are shown in red.
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ Dashboard (hidden by default) ============ -->
+  <main class="main dashboard" id="dashboard">
+    <div class="dashboard-header">
+      <div>
+        <h2 id="dashTitle">Study Analysis</h2>
+        <p style="color:var(--text-muted);font-size:13px;" id="dashSubtitle"></p>
+      </div>
+      <div style="display:flex;gap:8px;">
+        <button class="back-btn" onclick="closeDashboard()">&#x1F3E0; Home / Back</button>
+        <button class="btn btn-sm" style="background:#4CAF50;" onclick="openVolumeView(currentStudyId)">&#x1F9CA; 3D
+          View</button>
+        <button class="btn btn-danger btn-sm" onclick="deleteCurrentStudy()">&#x1F5D1; Delete</button>
+      </div>
+    </div>
+
+    <!-- Report Card -->
+    <div class="card" style="margin-bottom:20px; border-left: 4px solid #4CAF50;">
+      <h3>&#x1F4CB; Analiz Raporu</h3>
+      <div id="reportText" style="white-space: pre-wrap; font-family: sans-serif; line-height: 1.6;">Rapor
+        hazırlanıyor...</div>
+    </div>
+
+    <!-- Metric Cards -->
+    <div class="metrics-grid" id="metricsGrid"></div>
+
+    <!-- Plots -->
+    <div class="plots-grid" id="plotsGrid"></div>
+
+    <!-- Transitions Table -->
+    <div class="table-container" id="transitionsTable" style="display:none;">
+      <h3>&#x1F4CA; Slice Transitions (dK Scores)</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Transition</th>
+            <th>dK Score</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="transitionsBody"></tbody>
+      </table>
+    </div>
+  </main>
+
+  <!-- Toast container -->
+  <div class="toast-container" id="toasts"></div>
+
+  <script src="/static/app.js"></script>
+</body>
+
+</html>

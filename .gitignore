@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.gemini/
+.vscode/
+.idea/
+*.log
+web/static/uploads/
+web/static/results/

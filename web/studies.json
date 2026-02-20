@@ -1,0 +1,4077 @@
+{
+  "2438f941": {
+    "id": "2438f941",
+    "created_at": "2026-02-20T02:45:52.996366",
+    "file_count": 22,
+    "status": "completed",
+    "metadata": {
+      "patient_name": "BASOGUL SERIFE",
+      "patient_id": "28223198656",
+      "patient_age": "075Y",
+      "patient_sex": "F",
+      "study_date": "20260216",
+      "series_description": "Sag T1+C",
+      "modality": "MR",
+      "body_part": "",
+      "rows": 512,
+      "columns": 512,
+      "slice_count": 22,
+      "institution": "SIMAV DEVLET HASTANESI"
+    },
+    "results": {
+      "summary": {
+        "slice_count": 22,
+        "image_size": "512x512",
+        "dk_max": 1.2334512709051153,
+        "dk_threshold": 1.1283120797445285,
+        "anomalies_found": 1,
+        "entropy_mean": 4.655334544093432,
+        "entropy_range": [
+          2.820617527366161,
+          5.9203012813970926
+        ],
+        "lr_asymmetry_mean": 1.6161035262160128,
+        "phase_coherence_mean": 0.03483389425862409,
+        "hermitian_error_mean": 1.644472506516312
+      },
+      "transitions": [
+        {
+          "from_slice": 1,
+          "to_slice": 2,
+          "dk_score": 0.7489,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 2,
+          "to_slice": 3,
+          "dk_score": 0.7382,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 3,
+          "to_slice": 4,
+          "dk_score": 0.691,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 4,
+          "to_slice": 5,
+          "dk_score": 0.6538,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 5,
+          "to_slice": 6,
+          "dk_score": 0.6724,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 6,
+          "to_slice": 7,
+          "dk_score": 0.7098,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 7,
+          "to_slice": 8,
+          "dk_score": 0.7271,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 8,
+          "to_slice": 9,
+          "dk_score": 0.882,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 9,
+          "to_slice": 10,
+          "dk_score": 1.0364,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 10,
+          "to_slice": 11,
+          "dk_score": 1.0908,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 11,
+          "to_slice": 12,
+          "dk_score": 1.2335,
+          "status": "ANOMALY",
+          "is_anomaly": "True"
+        },
+        {
+          "from_slice": 12,
+          "to_slice": 13,
+          "dk_score": 1.1072,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 13,
+          "to_slice": 14,
+          "dk_score": 0.7779,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 14,
+          "to_slice": 15,
+          "dk_score": 0.7554,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 15,
+          "to_slice": 16,
+          "dk_score": 0.7055,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 16,
+          "to_slice": 17,
+          "dk_score": 0.659,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 17,
+          "to_slice": 18,
+          "dk_score": 0.6505,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 18,
+          "to_slice": 19,
+          "dk_score": 0.6902,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 19,
+          "to_slice": 20,
+          "dk_score": 0.7258,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 20,
+          "to_slice": 21,
+          "dk_score": 0.7383,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 21,
+          "to_slice": 22,
+          "dk_score": 0.7276,
+          "status": "Normal",
+          "is_anomaly": "False"
+        }
+      ],
+      "radiomics": [
+        {
+          "slice": 1,
+          "mean": 6.862159307697109,
+          "std": 1.66396028334184,
+          "skewness": 0.508310964955035,
+          "kurtosis": 0.08546156499519775,
+          "center_energy_ratio": 0.9999996966255118,
+          "entropy": 2.820617527366161,
+          "lr_asymmetry": 1.7782401118223314,
+          "tb_asymmetry": 1.7774840604843027,
+          "angular_uniformity": 34.253689351448735
+        },
+        {
+          "slice": 2,
+          "mean": 6.836786880642343,
+          "std": 1.7347833892591438,
+          "skewness": 0.6269438676405701,
+          "kurtosis": 0.20553854538900795,
+          "center_energy_ratio": 0.9999995573024711,
+          "entropy": 3.1896561446834673,
+          "lr_asymmetry": 1.752110811096078,
+          "tb_asymmetry": 1.7510501162056347,
+          "angular_uniformity": 34.25427867499831
+        },
+        {
+          "slice": 3,
+          "mean": 6.825042819002515,
+          "std": 1.7525851889007125,
+          "skewness": 0.6963443138065956,
+          "kurtosis": 0.4014857639287044,
+          "center_energy_ratio": 0.9999994714013871,
+          "entropy": 3.470937359073867,
+          "lr_asymmetry": 1.7230262992046612,
+          "tb_asymmetry": 1.7206040030487073,
+          "angular_uniformity": 34.25549455380649
+        },
+        {
+          "slice": 4,
+          "mean": 6.986546429487749,
+          "std": 1.7231241753648252,
+          "skewness": 0.8146181948594295,
+          "kurtosis": 0.7262943124707388,
+          "center_energy_ratio": 0.9999989568691348,
+          "entropy": 3.988399772454665,
+          "lr_asymmetry": 1.6718100049812217,
+          "tb_asymmetry": 1.671637590799116,
+          "angular_uniformity": 34.255796416994386
+        },
+        {
+          "slice": 5,
+          "mean": 7.0432473465531285,
+          "std": 1.7754037621631509,
+          "skewness": 0.8171040515651422,
+          "kurtosis": 0.6472776683513084,
+          "center_energy_ratio": 0.9999984479116798,
+          "entropy": 4.384745349947667,
+          "lr_asymmetry": 1.6387901447209097,
+          "tb_asymmetry": 1.6400407253175633,
+          "angular_uniformity": 34.257483476303065
+        },
+        {
+          "slice": 6,
+          "mean": 7.284546553402747,
+          "std": 1.7450390816194141,
+          "skewness": 0.7858221211448919,
+          "kurtosis": 0.6803028549549506,
+          "center_energy_ratio": 0.9999977883253542,
+          "entropy": 4.890992913341755,
+          "lr_asymmetry": 1.5986672795586054,
+          "tb_asymmetry": 1.59843323715039,
+          "angular_uniformity": 34.25816623521183
+        },
+        {
+          "slice": 7,
+          "mean": 7.258958154493482,
+          "std": 1.7983219449877534,
+          "skewness": 0.8458871618438416,
+          "kurtosis": 0.6978319323204585,
+          "center_energy_ratio": 0.9999968672329842,
+          "entropy": 5.230761455774891,
+          "lr_asymmetry": 1.5623590891329564,
+          "tb_asymmetry": 1.5600502750716747,
+          "angular_uniformity": 34.259195067161066
+        },
+        {
+          "slice": 8,
+          "mean": 7.33128242073586,
+          "std": 1.7738031504525873,
+          "skewness": 0.8988746326779824,
+          "kurtosis": 0.8312793157989069,
+          "center_energy_ratio": 0.9999958358081672,
+          "entropy": 5.415269466221131,
+          "lr_asymmetry": 1.5434916140237587,
+          "tb_asymmetry": 1.5423335440178074,
+          "angular_uniformity": 34.25910987779625
+        },
+        {
+          "slice": 9,
+          "mean": 7.579687028102748,
+          "std": 1.7144147768293743,
+          "skewness": 0.9106636836024742,
+          "kurtosis": 0.8910319057534628,
+          "center_energy_ratio": 0.9999948884877637,
+          "entropy": 5.822588131074359,
+          "lr_asymmetry": 1.5180409535899722,
+          "tb_asymmetry": 1.5190346485355781,
+          "angular_uniformity": 34.26003577160844
+        },
+        {
+          "slice": 10,
+          "mean": 7.720113620850679,
+          "std": 1.688753500286026,
+          "skewness": 0.8096240772735156,
+          "kurtosis": 0.7048849424587842,
+          "center_energy_ratio": 0.9999949520277129,
+          "entropy": 5.882109728581751,
+          "lr_asymmetry": 1.5223290237814155,
+          "tb_asymmetry": 1.5226071329440642,
+          "angular_uniformity": 34.2589812535297
+        },
+        {
+          "slice": 11,
+          "mean": 7.628539465557063,
+          "std": 1.7240496202628897,
+          "skewness": 0.8214618449204569,
+          "kurtosis": 0.6869043449383136,
+          "center_energy_ratio": 0.9999950139503775,
+          "entropy": 5.836810894087183,
+          "lr_asymmetry": 1.5281119013532392,
+          "tb_asymmetry": 1.5262967341327345,
+          "angular_uniformity": 34.259320460026494
+        },
+        {
+          "slice": 12,
+          "mean": 7.786440275970827,
+          "std": 1.6200840217689885,
+          "skewness": 0.9423765206214283,
+          "kurtosis": 0.9914181173672247,
+          "center_energy_ratio": 0.9999948585571844,
+          "entropy": 5.9203012813970926,
+          "lr_asymmetry": 1.5237025924741352,
+          "tb_asymmetry": 1.5245831887486634,
+          "angular_uniformity": 34.258483849147545
+        },
+        {
+          "slice": 13,
+          "mean": 7.419068876360787,
+          "std": 1.759411728488832,
+          "skewness": 0.9360961388603074,
+          "kurtosis": 0.8999249959748301,
+          "center_energy_ratio": 0.9999951409423027,
+          "entropy": 5.661802289242871,
+          "lr_asymmetry": 1.5291481868991315,
+          "tb_asymmetry": 1.5280315118608994,
+          "angular_uniformity": 34.2591029523305
+        },
+        {
+          "slice": 14,
+          "mean": 7.2836477436588005,
+          "std": 1.7937313466699403,
+          "skewness": 0.9600999550518198,
+          "kurtosis": 0.9130821526328048,
+          "center_energy_ratio": 0.9999956796453963,
+          "entropy": 5.485382928159664,
+          "lr_asymmetry": 1.5370095632648684,
+          "tb_asymmetry": 1.536035121105602,
+          "angular_uniformity": 34.25866393777141
+        },
+        {
+          "slice": 15,
+          "mean": 7.4065309140362094,
+          "std": 1.722758825266364,
+          "skewness": 0.9933642409476184,
+          "kurtosis": 1.1451614425666943,
+          "center_energy_ratio": 0.9999953179731228,
+          "entropy": 5.597344237550451,
+          "lr_asymmetry": 1.5270978172048475,
+          "tb_asymmetry": 1.5252689986542285,
+          "angular_uniformity": 34.25928627607941
+        },
+        {
+          "slice": 16,
+          "mean": 7.066169408644944,
+          "std": 1.8411357862835007,
+          "skewness": 0.9499269248950312,
+          "kurtosis": 0.8698541134447226,
+          "center_energy_ratio": 0.9999962474544946,
+          "entropy": 5.16794677330505,
+          "lr_asymmetry": 1.5622027400475913,
+          "tb_asymmetry": 1.562482643758663,
+          "angular_uniformity": 34.258654420756955
+        },
+        {
+          "slice": 17,
+          "mean": 7.038958474792848,
+          "std": 1.7939037321835347,
+          "skewness": 0.9354646646880858,
+          "kurtosis": 0.9829176159515938,
+          "center_energy_ratio": 0.9999969520482396,
+          "entropy": 4.903550626620459,
+          "lr_asymmetry": 1.585475328418604,
+          "tb_asymmetry": 1.5878300166457002,
+          "angular_uniformity": 34.258647491996264
+        },
+        {
+          "slice": 18,
+          "mean": 6.950799354939154,
+          "std": 1.7687786134484835,
+          "skewness": 0.9148810866132152,
+          "kurtosis": 0.8966172070715412,
+          "center_energy_ratio": 0.9999980489358213,
+          "entropy": 4.415075270672156,
+          "lr_asymmetry": 1.632075122674073,
+          "tb_asymmetry": 1.633384008190916,
+          "angular_uniformity": 34.25718995110964
+        },
+        {
+          "slice": 19,
+          "mean": 6.845090591722007,
+          "std": 1.7775025320677795,
+          "skewness": 0.8500685426005046,
+          "kurtosis": 0.7688996574819384,
+          "center_energy_ratio": 0.9999986460870414,
+          "entropy": 4.090423033219377,
+          "lr_asymmetry": 1.6614986357574044,
+          "tb_asymmetry": 1.6629307993592604,
+          "angular_uniformity": 34.256842675614884
+        },
+        {
+          "slice": 20,
+          "mean": 6.796147435173266,
+          "std": 1.763642891950113,
+          "skewness": 0.7614537081850493,
+          "kurtosis": 0.5919316500567473,
+          "center_energy_ratio": 0.9999991636669401,
+          "entropy": 3.6941173849851143,
+          "lr_asymmetry": 1.6971446887946025,
+          "tb_asymmetry": 1.6960768105584088,
+          "angular_uniformity": 34.25537991917442
+        },
+        {
+          "slice": 21,
+          "mean": 6.819082572909718,
+          "std": 1.7252505772300315,
+          "skewness": 0.679144238201012,
+          "kurtosis": 0.4695483541481211,
+          "center_energy_ratio": 0.9999995124518447,
+          "entropy": 3.43334189722054,
+          "lr_asymmetry": 1.7161978922834598,
+          "tb_asymmetry": 1.7141678345027997,
+          "angular_uniformity": 34.25462264912814
+        },
+        {
+          "slice": 22,
+          "mean": 6.92205001113815,
+          "std": 1.6401698028266747,
+          "skewness": 0.5890009968608616,
+          "kurtosis": 0.3671045990158084,
+          "center_energy_ratio": 0.9999997003460784,
+          "entropy": 3.115185505075822,
+          "lr_asymmetry": 1.7457477756684119,
+          "tb_asymmetry": 1.7427368673241788,
+          "angular_uniformity": 34.25258951382569
+        }
+      ],
+      "phase": [
+        {
+          "slice": 1,
+          "phase_gradient_mean": 1.5845481977013023,
+          "hermitian_error": 1.6469955591154481,
+          "mean_coherence": 0.029208557129903678,
+          "phase_entropy": 7.999215322038056,
+          "quadrant_consistency": 0.014203211645772693
+        },
+        {
+          "slice": 2,
+          "phase_gradient_mean": 1.4886234932356261,
+          "hermitian_error": 1.6201815955512098,
+          "mean_coherence": 0.030293131352365537,
+          "phase_entropy": 7.999330809295612,
+          "quadrant_consistency": 0.012645797812786269
+        },
+        {
+          "slice": 3,
+          "phase_gradient_mean": 1.446672453256214,
+          "hermitian_error": 1.6376154184643474,
+          "mean_coherence": 0.03345930168508439,
+          "phase_entropy": 7.999053433009285,
+          "quadrant_consistency": 0.007055428574320613
+        },
+        {
+          "slice": 4,
+          "phase_gradient_mean": 1.4864361535229325,
+          "hermitian_error": 1.4702416523907718,
+          "mean_coherence": 0.03204897412705482,
+          "phase_entropy": 7.99931657580415,
+          "quadrant_consistency": 0.005058153091715925
+        },
+        {
+          "slice": 5,
+          "phase_gradient_mean": 1.5284980567789566,
+          "hermitian_error": 1.6215656548231432,
+          "mean_coherence": 0.034323516446925294,
+          "phase_entropy": 7.999281624009647,
+          "quadrant_consistency": 0.009277278012896371
+        },
+        {
+          "slice": 6,
+          "phase_gradient_mean": 1.6110241123187996,
+          "hermitian_error": 1.8086261734844893,
+          "mean_coherence": 0.03347979214760402,
+          "phase_entropy": 7.999348314605987,
+          "quadrant_consistency": 0.004385460400262055
+        },
+        {
+          "slice": 7,
+          "phase_gradient_mean": 1.5365638634457064,
+          "hermitian_error": 1.6558633056917347,
+          "mean_coherence": 0.035713576011454674,
+          "phase_entropy": 7.999223036722684,
+          "quadrant_consistency": 0.005497157266041324
+        },
+        {
+          "slice": 8,
+          "phase_gradient_mean": 1.473608912858543,
+          "hermitian_error": 1.7038350239066136,
+          "mean_coherence": 0.033656748272880795,
+          "phase_entropy": 7.9992361811793185,
+          "quadrant_consistency": 0.003635281917898046
+        },
+        {
+          "slice": 9,
+          "phase_gradient_mean": 1.451725939755491,
+          "hermitian_error": 1.8250039128695241,
+          "mean_coherence": 0.03705196375157142,
+          "phase_entropy": 7.99935886681563,
+          "quadrant_consistency": 0.001193375798149439
+        },
+        {
+          "slice": 10,
+          "phase_gradient_mean": 1.4562601228852186,
+          "hermitian_error": 1.8355100746920847,
+          "mean_coherence": 0.032756448836054976,
+          "phase_entropy": 7.999158246339437,
+          "quadrant_consistency": 0.003613797810827337
+        },
+        {
+          "slice": 11,
+          "phase_gradient_mean": 1.4560729192301427,
+          "hermitian_error": 1.6577172866538394,
+          "mean_coherence": 0.04006300752246519,
+          "phase_entropy": 7.9993670199802125,
+          "quadrant_consistency": 0.0033038182646942227
+        },
+        {
+          "slice": 12,
+          "phase_gradient_mean": 1.6402493443688653,
+          "hermitian_error": 1.615080079834068,
+          "mean_coherence": 0.036673413867391105,
+          "phase_entropy": 7.999443606907157,
+          "quadrant_consistency": 0.0038483727136006353
+        },
+        {
+          "slice": 13,
+          "phase_gradient_mean": 1.4325033613285991,
+          "hermitian_error": 1.5999264971765823,
+          "mean_coherence": 0.03999347954931833,
+          "phase_entropy": 7.9994696120628435,
+          "quadrant_consistency": 0.0035428507578264263
+        },
+        {
+          "slice": 14,
+          "phase_gradient_mean": 1.446198837475761,
+          "hermitian_error": 1.6046754585452752,
+          "mean_coherence": 0.040044506880779436,
+          "phase_entropy": 7.999399662772952,
+          "quadrant_consistency": 0.005744437631236017
+        },
+        {
+          "slice": 15,
+          "phase_gradient_mean": 1.4752413657867414,
+          "hermitian_error": 1.5548700021508033,
+          "mean_coherence": 0.03719664547544046,
+          "phase_entropy": 7.999293180216938,
+          "quadrant_consistency": 0.004841837916073332
+        },
+        {
+          "slice": 16,
+          "phase_gradient_mean": 1.3625056704779892,
+          "hermitian_error": 1.6338880704129104,
+          "mean_coherence": 0.040503571779053164,
+          "phase_entropy": 7.999152778331787,
+          "quadrant_consistency": 0.010849749422319017
+        },
+        {
+          "slice": 17,
+          "phase_gradient_mean": 1.4379390573017692,
+          "hermitian_error": 1.7167715788348437,
+          "mean_coherence": 0.03434233010193301,
+          "phase_entropy": 7.999424165399915,
+          "quadrant_consistency": 0.013356339362848933
+        },
+        {
+          "slice": 18,
+          "phase_gradient_mean": 1.4984849118263683,
+          "hermitian_error": 1.6945438190432642,
+          "mean_coherence": 0.03592050239944154,
+          "phase_entropy": 7.9993267411410995,
+          "quadrant_consistency": 0.008200880490149718
+        },
+        {
+          "slice": 19,
+          "phase_gradient_mean": 1.468346109052837,
+          "hermitian_error": 1.6284465754064508,
+          "mean_coherence": 0.0340136250467668,
+          "phase_entropy": 7.999313778498813,
+          "quadrant_consistency": 0.0074007544888489655
+        },
+        {
+          "slice": 20,
+          "phase_gradient_mean": 1.4289688612638174,
+          "hermitian_error": 1.6192156070191366,
+          "mean_coherence": 0.03668475726890578,
+          "phase_entropy": 7.999090979718489,
+          "quadrant_consistency": 0.008058731572571556
+        },
+        {
+          "slice": 21,
+          "phase_gradient_mean": 1.5100746246393726,
+          "hermitian_error": 1.5701943296194116,
+          "mean_coherence": 0.03187330629153951,
+          "phase_entropy": 7.999240022252346,
+          "quadrant_consistency": 0.008949676413990094
+        },
+        {
+          "slice": 22,
+          "phase_gradient_mean": 1.6694162759993243,
+          "hermitian_error": 1.457627467672904,
+          "mean_coherence": 0.027044517745796165,
+          "phase_entropy": 7.999210364033578,
+          "quadrant_consistency": 0.004554428827652148
+        }
+      ],
+      "plots": {
+        "summary": "summary.png",
+        "differential": "differential.png",
+        "radiomics": "radiomics.png",
+        "phase": "phase.png",
+        "gallery": "gallery.png"
+      }
+    }
+  },
+  "b0bb9527": {
+    "id": "b0bb9527",
+    "created_at": "2026-02-20T02:56:16.365744",
+    "file_count": 1,
+    "status": "error",
+    "metadata": {},
+    "results": null,
+    "error": "No DICOM images found"
+  },
+  "974b5cb2": {
+    "id": "974b5cb2",
+    "created_at": "2026-02-20T03:04:48.699388",
+    "file_count": 5,
+    "status": "completed",
+    "metadata": {
+      "patient_name": "BASOGUL SERIFE",
+      "patient_id": "28223198656",
+      "patient_age": "075Y",
+      "patient_sex": "F",
+      "study_date": "20260216",
+      "series_description": "Sag T1+C",
+      "modality": "MR",
+      "body_part": "",
+      "rows": 512,
+      "columns": 512,
+      "slice_count": 5,
+      "institution": "SIMAV DEVLET HASTANESI"
+    },
+    "results": {
+      "summary": {
+        "slice_count": 5,
+        "image_size": "512x512",
+        "dk_max": 0.9485920147911989,
+        "dk_threshold": 0.9708256169914234,
+        "anomalies_found": 0,
+        "entropy_mean": 3.5708712307051655,
+        "entropy_range": [
+          2.820617527366161,
+          4.384745349947667
+        ],
+        "lr_asymmetry_mean": 1.7127954743650402,
+        "phase_coherence_mean": 0.031866696148266746,
+        "hermitian_error_mean": 1.599319976068984,
+        "report_text": "### 📋 K-Space Analiz Raporu\n**Tarih:** 20.02.2026 03:25\n**İncelenen Kesit Sayısı:** 5\n\n#### ✅ Normal Bulgular\nİncelenen seride belirgin bir K-Space anomalisi (dK > Eşik) tespit edilmemiştir.\n\n#### 🌊 Faz Uyumu (Phase Coherence)\n**Ortalama Skor:** 0.0319\n> *Yorum:* Düşük faz uyumu. Görüntüde karmaşık doku yapıları veya gürültü baskın olabilir.\n\n#### 🔬 Radyomik Doku Analizi\n**Entropi (Karmaşıklık):** 3.57\n> *Bilgi:* Yüksek entropi, daha karmaşık ve heterojen doku yapısını (örn. tümör dokusu) işaret edebilir.\n**Asimetri İndeksi:** 1.7128\n> *Dikkat:* Beyin hemisferleri arasında belirgin asimetri var. Kitle etkisi olabilir.\n\n---\n*Bu rapor yapay zeka destekli K-Space analizi ile oluşturulmuştur. Kesin tanı için radyolog yorumu esastır.*"
+      },
+      "transitions": [
+        {
+          "from_slice": 1,
+          "to_slice": 2,
+          "dk_score": 0.8797,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 2,
+          "to_slice": 3,
+          "dk_score": 0.8238,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 3,
+          "to_slice": 4,
+          "dk_score": 0.8281,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 4,
+          "to_slice": 5,
+          "dk_score": 0.9486,
+          "status": "Normal",
+          "is_anomaly": "False"
+        }
+      ],
+      "radiomics": [
+        {
+          "slice": 1,
+          "mean": 6.862159307697109,
+          "std": 1.66396028334184,
+          "skewness": 0.508310964955035,
+          "kurtosis": 0.08546156499519775,
+          "center_energy_ratio": 0.9999996966255118,
+          "entropy": 2.820617527366161,
+          "lr_asymmetry": 1.7782401118223314,
+          "tb_asymmetry": 1.7774840604843027,
+          "angular_uniformity": 34.253689351448735
+        },
+        {
+          "slice": 2,
+          "mean": 6.836786880642343,
+          "std": 1.7347833892591438,
+          "skewness": 0.6269438676405701,
+          "kurtosis": 0.20553854538900795,
+          "center_energy_ratio": 0.9999995573024711,
+          "entropy": 3.1896561446834673,
+          "lr_asymmetry": 1.752110811096078,
+          "tb_asymmetry": 1.7510501162056347,
+          "angular_uniformity": 34.25427867499831
+        },
+        {
+          "slice": 3,
+          "mean": 6.825042819002515,
+          "std": 1.7525851889007125,
+          "skewness": 0.6963443138065956,
+          "kurtosis": 0.4014857639287044,
+          "center_energy_ratio": 0.9999994714013871,
+          "entropy": 3.470937359073867,
+          "lr_asymmetry": 1.7230262992046612,
+          "tb_asymmetry": 1.7206040030487073,
+          "angular_uniformity": 34.25549455380649
+        },
+        {
+          "slice": 4,
+          "mean": 6.986546429487749,
+          "std": 1.7231241753648252,
+          "skewness": 0.8146181948594295,
+          "kurtosis": 0.7262943124707388,
+          "center_energy_ratio": 0.9999989568691348,
+          "entropy": 3.988399772454665,
+          "lr_asymmetry": 1.6718100049812217,
+          "tb_asymmetry": 1.671637590799116,
+          "angular_uniformity": 34.255796416994386
+        },
+        {
+          "slice": 5,
+          "mean": 7.0432473465531285,
+          "std": 1.7754037621631509,
+          "skewness": 0.8171040515651422,
+          "kurtosis": 0.6472776683513084,
+          "center_energy_ratio": 0.9999984479116798,
+          "entropy": 4.384745349947667,
+          "lr_asymmetry": 1.6387901447209097,
+          "tb_asymmetry": 1.6400407253175633,
+          "angular_uniformity": 34.257483476303065
+        }
+      ],
+      "phase": [
+        {
+          "slice": 1,
+          "phase_gradient_mean": 1.5845481977013023,
+          "hermitian_error": 1.6469955591154481,
+          "mean_coherence": 0.029208557129903678,
+          "phase_entropy": 7.999215322038056,
+          "quadrant_consistency": 0.014203211645772693
+        },
+        {
+          "slice": 2,
+          "phase_gradient_mean": 1.4886234932356261,
+          "hermitian_error": 1.6201815955512098,
+          "mean_coherence": 0.030293131352365537,
+          "phase_entropy": 7.999330809295612,
+          "quadrant_consistency": 0.012645797812786269
+        },
+        {
+          "slice": 3,
+          "phase_gradient_mean": 1.446672453256214,
+          "hermitian_error": 1.6376154184643474,
+          "mean_coherence": 0.03345930168508439,
+          "phase_entropy": 7.999053433009285,
+          "quadrant_consistency": 0.007055428574320613
+        },
+        {
+          "slice": 4,
+          "phase_gradient_mean": 1.4864361535229325,
+          "hermitian_error": 1.4702416523907718,
+          "mean_coherence": 0.03204897412705482,
+          "phase_entropy": 7.99931657580415,
+          "quadrant_consistency": 0.005058153091715925
+        },
+        {
+          "slice": 5,
+          "phase_gradient_mean": 1.5284980567789566,
+          "hermitian_error": 1.6215656548231432,
+          "mean_coherence": 0.034323516446925294,
+          "phase_entropy": 7.999281624009647,
+          "quadrant_consistency": 0.009277278012896371
+        }
+      ],
+      "plots": {
+        "summary": "summary.png",
+        "differential": "differential.png",
+        "radiomics": "radiomics.png",
+        "phase": "phase.png",
+        "gallery": "gallery.png"
+      }
+    }
+  },
+  "5fdf22ce": {
+    "id": "5fdf22ce",
+    "created_at": "2026-02-20T03:04:51.749544",
+    "file_count": 5,
+    "status": "completed",
+    "metadata": {
+      "patient_name": "BASOGUL SERIFE",
+      "patient_id": "28223198656",
+      "patient_age": "075Y",
+      "patient_sex": "F",
+      "study_date": "20260216",
+      "series_description": "Sag T1+C",
+      "modality": "MR",
+      "body_part": "",
+      "rows": 512,
+      "columns": 512,
+      "slice_count": 5,
+      "institution": "SIMAV DEVLET HASTANESI"
+    },
+    "results": {
+      "summary": {
+        "slice_count": 5,
+        "image_size": "512x512",
+        "dk_max": 0.9485920147911989,
+        "dk_threshold": 0.9708256169914234,
+        "anomalies_found": 0,
+        "entropy_mean": 3.5708712307051655,
+        "entropy_range": [
+          2.820617527366161,
+          4.384745349947667
+        ],
+        "lr_asymmetry_mean": 1.7127954743650402,
+        "phase_coherence_mean": 0.031866696148266746,
+        "hermitian_error_mean": 1.599319976068984
+      },
+      "transitions": [
+        {
+          "from_slice": 1,
+          "to_slice": 2,
+          "dk_score": 0.8797,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 2,
+          "to_slice": 3,
+          "dk_score": 0.8238,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 3,
+          "to_slice": 4,
+          "dk_score": 0.8281,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 4,
+          "to_slice": 5,
+          "dk_score": 0.9486,
+          "status": "Normal",
+          "is_anomaly": "False"
+        }
+      ],
+      "radiomics": [
+        {
+          "slice": 1,
+          "mean": 6.862159307697109,
+          "std": 1.66396028334184,
+          "skewness": 0.508310964955035,
+          "kurtosis": 0.08546156499519775,
+          "center_energy_ratio": 0.9999996966255118,
+          "entropy": 2.820617527366161,
+          "lr_asymmetry": 1.7782401118223314,
+          "tb_asymmetry": 1.7774840604843027,
+          "angular_uniformity": 34.253689351448735
+        },
+        {
+          "slice": 2,
+          "mean": 6.836786880642343,
+          "std": 1.7347833892591438,
+          "skewness": 0.6269438676405701,
+          "kurtosis": 0.20553854538900795,
+          "center_energy_ratio": 0.9999995573024711,
+          "entropy": 3.1896561446834673,
+          "lr_asymmetry": 1.752110811096078,
+          "tb_asymmetry": 1.7510501162056347,
+          "angular_uniformity": 34.25427867499831
+        },
+        {
+          "slice": 3,
+          "mean": 6.825042819002515,
+          "std": 1.7525851889007125,
+          "skewness": 0.6963443138065956,
+          "kurtosis": 0.4014857639287044,
+          "center_energy_ratio": 0.9999994714013871,
+          "entropy": 3.470937359073867,
+          "lr_asymmetry": 1.7230262992046612,
+          "tb_asymmetry": 1.7206040030487073,
+          "angular_uniformity": 34.25549455380649
+        },
+        {
+          "slice": 4,
+          "mean": 6.986546429487749,
+          "std": 1.7231241753648252,
+          "skewness": 0.8146181948594295,
+          "kurtosis": 0.7262943124707388,
+          "center_energy_ratio": 0.9999989568691348,
+          "entropy": 3.988399772454665,
+          "lr_asymmetry": 1.6718100049812217,
+          "tb_asymmetry": 1.671637590799116,
+          "angular_uniformity": 34.255796416994386
+        },
+        {
+          "slice": 5,
+          "mean": 7.0432473465531285,
+          "std": 1.7754037621631509,
+          "skewness": 0.8171040515651422,
+          "kurtosis": 0.6472776683513084,
+          "center_energy_ratio": 0.9999984479116798,
+          "entropy": 4.384745349947667,
+          "lr_asymmetry": 1.6387901447209097,
+          "tb_asymmetry": 1.6400407253175633,
+          "angular_uniformity": 34.257483476303065
+        }
+      ],
+      "phase": [
+        {
+          "slice": 1,
+          "phase_gradient_mean": 1.5845481977013023,
+          "hermitian_error": 1.6469955591154481,
+          "mean_coherence": 0.029208557129903678,
+          "phase_entropy": 7.999215322038056,
+          "quadrant_consistency": 0.014203211645772693
+        },
+        {
+          "slice": 2,
+          "phase_gradient_mean": 1.4886234932356261,
+          "hermitian_error": 1.6201815955512098,
+          "mean_coherence": 0.030293131352365537,
+          "phase_entropy": 7.999330809295612,
+          "quadrant_consistency": 0.012645797812786269
+        },
+        {
+          "slice": 3,
+          "phase_gradient_mean": 1.446672453256214,
+          "hermitian_error": 1.6376154184643474,
+          "mean_coherence": 0.03345930168508439,
+          "phase_entropy": 7.999053433009285,
+          "quadrant_consistency": 0.007055428574320613
+        },
+        {
+          "slice": 4,
+          "phase_gradient_mean": 1.4864361535229325,
+          "hermitian_error": 1.4702416523907718,
+          "mean_coherence": 0.03204897412705482,
+          "phase_entropy": 7.99931657580415,
+          "quadrant_consistency": 0.005058153091715925
+        },
+        {
+          "slice": 5,
+          "phase_gradient_mean": 1.5284980567789566,
+          "hermitian_error": 1.6215656548231432,
+          "mean_coherence": 0.034323516446925294,
+          "phase_entropy": 7.999281624009647,
+          "quadrant_consistency": 0.009277278012896371
+        }
+      ],
+      "plots": {
+        "summary": "summary.png",
+        "differential": "differential.png",
+        "radiomics": "radiomics.png",
+        "phase": "phase.png",
+        "gallery": "gallery.png"
+      }
+    }
+  },
+  "b59a5d1d": {
+    "id": "b59a5d1d",
+    "created_at": "2026-02-20T03:09:21.570533",
+    "file_count": 5,
+    "status": "completed",
+    "metadata": {
+      "patient_name": "BASOGUL SERIFE",
+      "patient_id": "28223198656",
+      "patient_age": "075Y",
+      "patient_sex": "F",
+      "study_date": "20260216",
+      "series_description": "Sag T1+C",
+      "modality": "MR",
+      "body_part": "",
+      "rows": 512,
+      "columns": 512,
+      "slice_count": 5,
+      "institution": "SIMAV DEVLET HASTANESI"
+    },
+    "results": {
+      "summary": {
+        "slice_count": 5,
+        "image_size": "512x512",
+        "dk_max": 0.9485920147911989,
+        "dk_threshold": 0.9708256169914234,
+        "anomalies_found": 0,
+        "entropy_mean": 3.5708712307051655,
+        "entropy_range": [
+          2.820617527366161,
+          4.384745349947667
+        ],
+        "lr_asymmetry_mean": 1.7127954743650402,
+        "phase_coherence_mean": 0.031866696148266746,
+        "hermitian_error_mean": 1.599319976068984
+      },
+      "transitions": [
+        {
+          "from_slice": 1,
+          "to_slice": 2,
+          "dk_score": 0.8797,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 2,
+          "to_slice": 3,
+          "dk_score": 0.8238,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 3,
+          "to_slice": 4,
+          "dk_score": 0.8281,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 4,
+          "to_slice": 5,
+          "dk_score": 0.9486,
+          "status": "Normal",
+          "is_anomaly": "False"
+        }
+      ],
+      "radiomics": [
+        {
+          "slice": 1,
+          "mean": 6.862159307697109,
+          "std": 1.66396028334184,
+          "skewness": 0.508310964955035,
+          "kurtosis": 0.08546156499519775,
+          "center_energy_ratio": 0.9999996966255118,
+          "entropy": 2.820617527366161,
+          "lr_asymmetry": 1.7782401118223314,
+          "tb_asymmetry": 1.7774840604843027,
+          "angular_uniformity": 34.253689351448735
+        },
+        {
+          "slice": 2,
+          "mean": 6.836786880642343,
+          "std": 1.7347833892591438,
+          "skewness": 0.6269438676405701,
+          "kurtosis": 0.20553854538900795,
+          "center_energy_ratio": 0.9999995573024711,
+          "entropy": 3.1896561446834673,
+          "lr_asymmetry": 1.752110811096078,
+          "tb_asymmetry": 1.7510501162056347,
+          "angular_uniformity": 34.25427867499831
+        },
+        {
+          "slice": 3,
+          "mean": 6.825042819002515,
+          "std": 1.7525851889007125,
+          "skewness": 0.6963443138065956,
+          "kurtosis": 0.4014857639287044,
+          "center_energy_ratio": 0.9999994714013871,
+          "entropy": 3.470937359073867,
+          "lr_asymmetry": 1.7230262992046612,
+          "tb_asymmetry": 1.7206040030487073,
+          "angular_uniformity": 34.25549455380649
+        },
+        {
+          "slice": 4,
+          "mean": 6.986546429487749,
+          "std": 1.7231241753648252,
+          "skewness": 0.8146181948594295,
+          "kurtosis": 0.7262943124707388,
+          "center_energy_ratio": 0.9999989568691348,
+          "entropy": 3.988399772454665,
+          "lr_asymmetry": 1.6718100049812217,
+          "tb_asymmetry": 1.671637590799116,
+          "angular_uniformity": 34.255796416994386
+        },
+        {
+          "slice": 5,
+          "mean": 7.0432473465531285,
+          "std": 1.7754037621631509,
+          "skewness": 0.8171040515651422,
+          "kurtosis": 0.6472776683513084,
+          "center_energy_ratio": 0.9999984479116798,
+          "entropy": 4.384745349947667,
+          "lr_asymmetry": 1.6387901447209097,
+          "tb_asymmetry": 1.6400407253175633,
+          "angular_uniformity": 34.257483476303065
+        }
+      ],
+      "phase": [
+        {
+          "slice": 1,
+          "phase_gradient_mean": 1.5845481977013023,
+          "hermitian_error": 1.6469955591154481,
+          "mean_coherence": 0.029208557129903678,
+          "phase_entropy": 7.999215322038056,
+          "quadrant_consistency": 0.014203211645772693
+        },
+        {
+          "slice": 2,
+          "phase_gradient_mean": 1.4886234932356261,
+          "hermitian_error": 1.6201815955512098,
+          "mean_coherence": 0.030293131352365537,
+          "phase_entropy": 7.999330809295612,
+          "quadrant_consistency": 0.012645797812786269
+        },
+        {
+          "slice": 3,
+          "phase_gradient_mean": 1.446672453256214,
+          "hermitian_error": 1.6376154184643474,
+          "mean_coherence": 0.03345930168508439,
+          "phase_entropy": 7.999053433009285,
+          "quadrant_consistency": 0.007055428574320613
+        },
+        {
+          "slice": 4,
+          "phase_gradient_mean": 1.4864361535229325,
+          "hermitian_error": 1.4702416523907718,
+          "mean_coherence": 0.03204897412705482,
+          "phase_entropy": 7.99931657580415,
+          "quadrant_consistency": 0.005058153091715925
+        },
+        {
+          "slice": 5,
+          "phase_gradient_mean": 1.5284980567789566,
+          "hermitian_error": 1.6215656548231432,
+          "mean_coherence": 0.034323516446925294,
+          "phase_entropy": 7.999281624009647,
+          "quadrant_consistency": 0.009277278012896371
+        }
+      ],
+      "plots": {
+        "summary": "summary.png",
+        "differential": "differential.png",
+        "radiomics": "radiomics.png",
+        "phase": "phase.png",
+        "gallery": "gallery.png"
+      }
+    }
+  },
+  "64cb9cdc": {
+    "id": "64cb9cdc",
+    "created_at": "2026-02-20T03:09:24.625989",
+    "file_count": 5,
+    "status": "completed",
+    "metadata": {
+      "patient_name": "BASOGUL SERIFE",
+      "patient_id": "28223198656",
+      "patient_age": "075Y",
+      "patient_sex": "F",
+      "study_date": "20260216",
+      "series_description": "Sag T1+C",
+      "modality": "MR",
+      "body_part": "",
+      "rows": 512,
+      "columns": 512,
+      "slice_count": 5,
+      "institution": "SIMAV DEVLET HASTANESI"
+    },
+    "results": {
+      "summary": {
+        "slice_count": 5,
+        "image_size": "512x512",
+        "dk_max": 0.9485920147911989,
+        "dk_threshold": 0.9708256169914234,
+        "anomalies_found": 0,
+        "entropy_mean": 3.5708712307051655,
+        "entropy_range": [
+          2.820617527366161,
+          4.384745349947667
+        ],
+        "lr_asymmetry_mean": 1.7127954743650402,
+        "phase_coherence_mean": 0.031866696148266746,
+        "hermitian_error_mean": 1.599319976068984
+      },
+      "transitions": [
+        {
+          "from_slice": 1,
+          "to_slice": 2,
+          "dk_score": 0.8797,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 2,
+          "to_slice": 3,
+          "dk_score": 0.8238,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 3,
+          "to_slice": 4,
+          "dk_score": 0.8281,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 4,
+          "to_slice": 5,
+          "dk_score": 0.9486,
+          "status": "Normal",
+          "is_anomaly": "False"
+        }
+      ],
+      "radiomics": [
+        {
+          "slice": 1,
+          "mean": 6.862159307697109,
+          "std": 1.66396028334184,
+          "skewness": 0.508310964955035,
+          "kurtosis": 0.08546156499519775,
+          "center_energy_ratio": 0.9999996966255118,
+          "entropy": 2.820617527366161,
+          "lr_asymmetry": 1.7782401118223314,
+          "tb_asymmetry": 1.7774840604843027,
+          "angular_uniformity": 34.253689351448735
+        },
+        {
+          "slice": 2,
+          "mean": 6.836786880642343,
+          "std": 1.7347833892591438,
+          "skewness": 0.6269438676405701,
+          "kurtosis": 0.20553854538900795,
+          "center_energy_ratio": 0.9999995573024711,
+          "entropy": 3.1896561446834673,
+          "lr_asymmetry": 1.752110811096078,
+          "tb_asymmetry": 1.7510501162056347,
+          "angular_uniformity": 34.25427867499831
+        },
+        {
+          "slice": 3,
+          "mean": 6.825042819002515,
+          "std": 1.7525851889007125,
+          "skewness": 0.6963443138065956,
+          "kurtosis": 0.4014857639287044,
+          "center_energy_ratio": 0.9999994714013871,
+          "entropy": 3.470937359073867,
+          "lr_asymmetry": 1.7230262992046612,
+          "tb_asymmetry": 1.7206040030487073,
+          "angular_uniformity": 34.25549455380649
+        },
+        {
+          "slice": 4,
+          "mean": 6.986546429487749,
+          "std": 1.7231241753648252,
+          "skewness": 0.8146181948594295,
+          "kurtosis": 0.7262943124707388,
+          "center_energy_ratio": 0.9999989568691348,
+          "entropy": 3.988399772454665,
+          "lr_asymmetry": 1.6718100049812217,
+          "tb_asymmetry": 1.671637590799116,
+          "angular_uniformity": 34.255796416994386
+        },
+        {
+          "slice": 5,
+          "mean": 7.0432473465531285,
+          "std": 1.7754037621631509,
+          "skewness": 0.8171040515651422,
+          "kurtosis": 0.6472776683513084,
+          "center_energy_ratio": 0.9999984479116798,
+          "entropy": 4.384745349947667,
+          "lr_asymmetry": 1.6387901447209097,
+          "tb_asymmetry": 1.6400407253175633,
+          "angular_uniformity": 34.257483476303065
+        }
+      ],
+      "phase": [
+        {
+          "slice": 1,
+          "phase_gradient_mean": 1.5845481977013023,
+          "hermitian_error": 1.6469955591154481,
+          "mean_coherence": 0.029208557129903678,
+          "phase_entropy": 7.999215322038056,
+          "quadrant_consistency": 0.014203211645772693
+        },
+        {
+          "slice": 2,
+          "phase_gradient_mean": 1.4886234932356261,
+          "hermitian_error": 1.6201815955512098,
+          "mean_coherence": 0.030293131352365537,
+          "phase_entropy": 7.999330809295612,
+          "quadrant_consistency": 0.012645797812786269
+        },
+        {
+          "slice": 3,
+          "phase_gradient_mean": 1.446672453256214,
+          "hermitian_error": 1.6376154184643474,
+          "mean_coherence": 0.03345930168508439,
+          "phase_entropy": 7.999053433009285,
+          "quadrant_consistency": 0.007055428574320613
+        },
+        {
+          "slice": 4,
+          "phase_gradient_mean": 1.4864361535229325,
+          "hermitian_error": 1.4702416523907718,
+          "mean_coherence": 0.03204897412705482,
+          "phase_entropy": 7.99931657580415,
+          "quadrant_consistency": 0.005058153091715925
+        },
+        {
+          "slice": 5,
+          "phase_gradient_mean": 1.5284980567789566,
+          "hermitian_error": 1.6215656548231432,
+          "mean_coherence": 0.034323516446925294,
+          "phase_entropy": 7.999281624009647,
+          "quadrant_consistency": 0.009277278012896371
+        }
+      ],
+      "plots": {
+        "summary": "summary.png",
+        "differential": "differential.png",
+        "radiomics": "radiomics.png",
+        "phase": "phase.png",
+        "gallery": "gallery.png"
+      }
+    }
+  },
+  "e6ae33bb": {
+    "id": "e6ae33bb",
+    "created_at": "2026-02-20T03:37:16.929035",
+    "file_count": 1,
+    "status": "error",
+    "metadata": {},
+    "results": null,
+    "error": "No DICOM images found"
+  },
+  "db404d17": {
+    "id": "db404d17",
+    "created_at": "2026-02-20T03:37:40.514315",
+    "file_count": 9,
+    "status": "completed",
+    "metadata": {
+      "patient_name": "SEYMEN SONGUL",
+      "patient_id": "14987607282",
+      "patient_age": "039Y",
+      "patient_sex": "F",
+      "study_date": "20260219",
+      "series_description": "3-Plan",
+      "modality": "MR",
+      "body_part": "",
+      "rows": 256,
+      "columns": 256,
+      "slice_count": 9,
+      "institution": "SIMAV DEVLET HASTANESI"
+    },
+    "results": {
+      "summary": {
+        "slice_count": 9,
+        "image_size": "256x256",
+        "dk_max": 0.980959468861294,
+        "dk_threshold": 1.000915934347108,
+        "anomalies_found": 0,
+        "entropy_mean": 1.647593460509868,
+        "entropy_range": [
+          1.5336044444778485,
+          1.811992441913162
+        ],
+        "lr_asymmetry_mean": 1.8754960481401777,
+        "phase_coherence_mean": 0.04278835625894413,
+        "hermitian_error_mean": 1.5359340728928175,
+        "report_text": "### 📋 K-Space Analiz Raporu\n**Tarih:** 20.02.2026 03:37\n**İncelenen Kesit Sayısı:** 9\n\n#### ✅ Normal Bulgular\nİncelenen seride belirgin bir K-Space anomalisi (dK > Eşik) tespit edilmemiştir.\n\n#### 🌊 Faz Uyumu (Phase Coherence)\n**Ortalama Skor:** 0.0428\n> *Yorum:* Düşük faz uyumu. Görüntüde karmaşık doku yapıları veya gürültü baskın olabilir.\n\n#### 🔬 Radyomik Doku Analizi\n**Entropi (Karmaşıklık):** 1.65\n> *Bilgi:* Yüksek entropi, daha karmaşık ve heterojen doku yapısını (örn. tümör dokusu) işaret edebilir.\n**Asimetri İndeksi:** 1.8755\n> *Dikkat:* Beyin hemisferleri arasında belirgin asimetri var. Kitle etkisi olabilir.\n\n---\n*Bu rapor yapay zeka destekli K-Space analizi ile oluşturulmuştur. Kesin tanı için radyolog yorumu esastır.*"
+      },
+      "transitions": [
+        {
+          "from_slice": 1,
+          "to_slice": 2,
+          "dk_score": 0.981,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 2,
+          "to_slice": 3,
+          "dk_score": 0.9739,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 3,
+          "to_slice": 4,
+          "dk_score": 0.8029,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 4,
+          "to_slice": 5,
+          "dk_score": 0.7812,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 5,
+          "to_slice": 6,
+          "dk_score": 0.7939,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 6,
+          "to_slice": 7,
+          "dk_score": 0.8042,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 7,
+          "to_slice": 8,
+          "dk_score": 0.7673,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 8,
+          "to_slice": 9,
+          "dk_score": 0.7828,
+          "status": "Normal",
+          "is_anomaly": "False"
+        }
+      ],
+      "radiomics": [
+        {
+          "slice": 1,
+          "mean": 6.962063897642552,
+          "std": 1.3509612073069146,
+          "skewness": 0.34250346888831285,
+          "kurtosis": 0.1006070603789424,
+          "center_energy_ratio": 0.9999996526477751,
+          "entropy": 1.5890755602956512,
+          "lr_asymmetry": 1.8817990682390673,
+          "tb_asymmetry": 1.8829704658165012,
+          "angular_uniformity": 32.86751360196033
+        },
+        {
+          "slice": 2,
+          "mean": 6.924418666528139,
+          "std": 1.370779537295275,
+          "skewness": 0.30664271274135274,
+          "kurtosis": 0.005835037751642069,
+          "center_energy_ratio": 0.999999686977142,
+          "entropy": 1.5532329204839463,
+          "lr_asymmetry": 1.8851311531754038,
+          "tb_asymmetry": 1.8856037475125,
+          "angular_uniformity": 32.86749546150862
+        },
+        {
+          "slice": 3,
+          "mean": 6.954245950723804,
+          "std": 1.4018735178049209,
+          "skewness": 0.3541462805330822,
+          "kurtosis": 0.020766533459063652,
+          "center_energy_ratio": 0.999999579583435,
+          "entropy": 1.6797720031205254,
+          "lr_asymmetry": 1.8737002986680273,
+          "tb_asymmetry": 1.8746520213823135,
+          "angular_uniformity": 32.86786133075476
+        },
+        {
+          "slice": 4,
+          "mean": 6.928451377736017,
+          "std": 1.4420304814035765,
+          "skewness": 0.3407492146832696,
+          "kurtosis": 0.04511200569600904,
+          "center_energy_ratio": 0.9999994396238391,
+          "entropy": 1.732891184850402,
+          "lr_asymmetry": 1.8686417417885206,
+          "tb_asymmetry": 1.871072057164043,
+          "angular_uniformity": 32.868971136579546
+        },
+        {
+          "slice": 5,
+          "mean": 6.976856281927537,
+          "std": 1.4314320997317573,
+          "skewness": 0.3962250746843062,
+          "kurtosis": 0.11637180266858449,
+          "center_energy_ratio": 0.999999385913774,
+          "entropy": 1.811992441913162,
+          "lr_asymmetry": 1.8607074573823394,
+          "tb_asymmetry": 1.86453659627335,
+          "angular_uniformity": 32.86964421944507
+        },
+        {
+          "slice": 6,
+          "mean": 6.797845574755099,
+          "std": 1.4558127317666059,
+          "skewness": 0.4493522365482459,
+          "kurtosis": 0.1571011147323973,
+          "center_energy_ratio": 0.9999994548723115,
+          "entropy": 1.6536528839218652,
+          "lr_asymmetry": 1.8731727045570206,
+          "tb_asymmetry": 1.875182064998672,
+          "angular_uniformity": 32.86961272280774
+        },
+        {
+          "slice": 7,
+          "mean": 6.763505052857434,
+          "std": 1.4324518349504891,
+          "skewness": 0.415389781347795,
+          "kurtosis": 0.17557587630027882,
+          "center_energy_ratio": 0.9999995852948242,
+          "entropy": 1.5336044444778485,
+          "lr_asymmetry": 1.8836900675611725,
+          "tb_asymmetry": 1.882952165588875,
+          "angular_uniformity": 32.86872403757759
+        },
+        {
+          "slice": 8,
+          "mean": 6.997563815681737,
+          "std": 1.3627627624490164,
+          "skewness": 0.40422559204350034,
+          "kurtosis": 0.332406543650674,
+          "center_energy_ratio": 0.9999994964586135,
+          "entropy": 1.7280721368239664,
+          "lr_asymmetry": 1.8684743078138515,
+          "tb_asymmetry": 1.8663660897057217,
+          "angular_uniformity": 32.869141880802275
+        },
+        {
+          "slice": 9,
+          "mean": 6.865778257510941,
+          "std": 1.363564020040397,
+          "skewness": 0.39668107506890676,
+          "kurtosis": 0.31303260082890283,
+          "center_energy_ratio": 0.999999594259312,
+          "entropy": 1.5460475687014443,
+          "lr_asymmetry": 1.8841476340761958,
+          "tb_asymmetry": 1.882458310086095,
+          "angular_uniformity": 32.86875333228773
+        }
+      ],
+      "phase": [
+        {
+          "slice": 1,
+          "phase_gradient_mean": 1.781324801899604,
+          "hermitian_error": 1.5428715779824882,
+          "mean_coherence": 0.03852862049577931,
+          "phase_entropy": 7.997025261636292,
+          "quadrant_consistency": 0.008294343216008226
+        },
+        {
+          "slice": 2,
+          "phase_gradient_mean": 1.731848578743287,
+          "hermitian_error": 1.515803430235052,
+          "mean_coherence": 0.03935602617555732,
+          "phase_entropy": 7.997171323230033,
+          "quadrant_consistency": 0.01094549122775707
+        },
+        {
+          "slice": 3,
+          "phase_gradient_mean": 1.712208189872402,
+          "hermitian_error": 1.594506569593472,
+          "mean_coherence": 0.038805754433150846,
+          "phase_entropy": 7.997874861287679,
+          "quadrant_consistency": 0.009859618000329619
+        },
+        {
+          "slice": 4,
+          "phase_gradient_mean": 1.653054353519692,
+          "hermitian_error": 1.5150531251710153,
+          "mean_coherence": 0.04216286416249556,
+          "phase_entropy": 7.99683600713607,
+          "quadrant_consistency": 0.014102043848139722
+        },
+        {
+          "slice": 5,
+          "phase_gradient_mean": 1.675961026279038,
+          "hermitian_error": 1.4732946898277604,
+          "mean_coherence": 0.044769038293992654,
+          "phase_entropy": 7.997386419102684,
+          "quadrant_consistency": 0.013028940716474416
+        },
+        {
+          "slice": 6,
+          "phase_gradient_mean": 1.6173698970046884,
+          "hermitian_error": 1.4487183367729464,
+          "mean_coherence": 0.04319101838399234,
+          "phase_entropy": 7.996705129511772,
+          "quadrant_consistency": 0.012549316015965062
+        },
+        {
+          "slice": 7,
+          "phase_gradient_mean": 1.5858249858645133,
+          "hermitian_error": 1.5643393666172085,
+          "mean_coherence": 0.045419922615264764,
+          "phase_entropy": 7.9971958551607605,
+          "quadrant_consistency": 0.004589478129325473
+        },
+        {
+          "slice": 8,
+          "phase_gradient_mean": 1.5392373353118898,
+          "hermitian_error": 1.5773275312521633,
+          "mean_coherence": 0.04534524631419546,
+          "phase_entropy": 7.9973418105041505,
+          "quadrant_consistency": 0.0036817416169108055
+        },
+        {
+          "slice": 9,
+          "phase_gradient_mean": 1.5345621826186167,
+          "hermitian_error": 1.5914920285832515,
+          "mean_coherence": 0.047516715456068906,
+          "phase_entropy": 7.996736189170953,
+          "quadrant_consistency": 0.010265229009564034
+        }
+      ],
+      "plots": {
+        "summary": "summary.png",
+        "differential": "differential.png",
+        "radiomics": "radiomics.png",
+        "phase": "phase.png",
+        "gallery": "gallery.png"
+      }
+    }
+  },
+  "3673c12b": {
+    "id": "3673c12b",
+    "created_at": "2026-02-20T03:39:28.458349",
+    "file_count": 88,
+    "status": "completed",
+    "metadata": {
+      "patient_name": "SEYMEN SONGUL",
+      "patient_id": "14987607282",
+      "patient_age": "039Y",
+      "patient_sex": "F",
+      "study_date": "20260219",
+      "series_description": "Ax DWI 1000b ASSET",
+      "modality": "MR",
+      "body_part": "",
+      "rows": 256,
+      "columns": 256,
+      "slice_count": 88,
+      "institution": "SIMAV DEVLET HASTANESI"
+    },
+    "results": {
+      "summary": {
+        "slice_count": 88,
+        "image_size": "256x256",
+        "dk_max": 1.1172873933096015,
+        "dk_threshold": 1.066333497072003,
+        "anomalies_found": 2,
+        "entropy_mean": 3.609526349000072,
+        "entropy_range": [
+          1.5572491964040138,
+          6.244705809075754
+        ],
+        "lr_asymmetry_mean": 1.6985594842851446,
+        "phase_coherence_mean": 0.045123082228768326,
+        "hermitian_error_mean": 1.5672494879227827,
+        "report_text": "### 📋 K-Space Analiz Raporu\n**Tarih:** 20.02.2026 03:39\n**İncelenen Kesit Sayısı:** 88\n\n#### 🚨 Tespit Edilen Anomaliler (2 Adet)\nK-Space frekans analizinde, normal doku yapısından sapmalar tespit edilmiştir. Bu bölgeler patoloji şüphesi taşıyabilir:\n- **Kesit 73 -> 74**: dK Skoru 1.1173 (Eşik: 1.07)\n  > *Yorum:* Bu geçişte yüksek frekans değişimi var. Doku sınırlarında veya yapısında ani değişim gözleniyor.\n- **Kesit 74 -> 75**: dK Skoru 1.1015 (Eşik: 1.07)\n  > *Yorum:* Bu geçişte yüksek frekans değişimi var. Doku sınırlarında veya yapısında ani değişim gözleniyor.\n\n#### 🌊 Faz Uyumu (Phase Coherence)\n**Ortalama Skor:** 0.0451\n> *Yorum:* Düşük faz uyumu. Görüntüde karmaşık doku yapıları veya gürültü baskın olabilir.\n\n#### 🔬 Radyomik Doku Analizi\n**Entropi (Karmaşıklık):** 3.61\n> *Bilgi:* Yüksek entropi, daha karmaşık ve heterojen doku yapısını (örn. tümör dokusu) işaret edebilir.\n**Asimetri İndeksi:** 1.6986\n> *Dikkat:* Beyin hemisferleri arasında belirgin asimetri var. Kitle etkisi olabilir.\n\n---\n*Bu rapor yapay zeka destekli K-Space analizi ile oluşturulmuştur. Kesin tanı için radyolog yorumu esastır.*"
+      },
+      "transitions": [
+        {
+          "from_slice": 1,
+          "to_slice": 2,
+          "dk_score": 0.6877,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 2,
+          "to_slice": 3,
+          "dk_score": 0.6685,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 3,
+          "to_slice": 4,
+          "dk_score": 0.6678,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 4,
+          "to_slice": 5,
+          "dk_score": 0.6637,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 5,
+          "to_slice": 6,
+          "dk_score": 0.6627,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 6,
+          "to_slice": 7,
+          "dk_score": 0.6615,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 7,
+          "to_slice": 8,
+          "dk_score": 0.6574,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 8,
+          "to_slice": 9,
+          "dk_score": 0.6643,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 9,
+          "to_slice": 10,
+          "dk_score": 0.6649,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 10,
+          "to_slice": 11,
+          "dk_score": 0.6579,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 11,
+          "to_slice": 12,
+          "dk_score": 0.6559,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 12,
+          "to_slice": 13,
+          "dk_score": 0.6443,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 13,
+          "to_slice": 14,
+          "dk_score": 0.6559,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 14,
+          "to_slice": 15,
+          "dk_score": 0.6547,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 15,
+          "to_slice": 16,
+          "dk_score": 0.6587,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 16,
+          "to_slice": 17,
+          "dk_score": 0.6584,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 17,
+          "to_slice": 18,
+          "dk_score": 0.6593,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 18,
+          "to_slice": 19,
+          "dk_score": 0.6564,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 19,
+          "to_slice": 20,
+          "dk_score": 0.6592,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 20,
+          "to_slice": 21,
+          "dk_score": 0.6623,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 21,
+          "to_slice": 22,
+          "dk_score": 0.6679,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 22,
+          "to_slice": 23,
+          "dk_score": 0.6656,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 23,
+          "to_slice": 24,
+          "dk_score": 0.6652,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 24,
+          "to_slice": 25,
+          "dk_score": 0.6654,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 25,
+          "to_slice": 26,
+          "dk_score": 0.6684,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 26,
+          "to_slice": 27,
+          "dk_score": 0.6655,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 27,
+          "to_slice": 28,
+          "dk_score": 0.6722,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 28,
+          "to_slice": 29,
+          "dk_score": 0.6701,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 29,
+          "to_slice": 30,
+          "dk_score": 0.6704,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 30,
+          "to_slice": 31,
+          "dk_score": 0.6701,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 31,
+          "to_slice": 32,
+          "dk_score": 0.6674,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 32,
+          "to_slice": 33,
+          "dk_score": 0.671,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 33,
+          "to_slice": 34,
+          "dk_score": 0.6692,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 34,
+          "to_slice": 35,
+          "dk_score": 0.6752,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 35,
+          "to_slice": 36,
+          "dk_score": 0.6701,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 36,
+          "to_slice": 37,
+          "dk_score": 0.674,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 37,
+          "to_slice": 38,
+          "dk_score": 0.6726,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 38,
+          "to_slice": 39,
+          "dk_score": 0.6782,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 39,
+          "to_slice": 40,
+          "dk_score": 0.6858,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 40,
+          "to_slice": 41,
+          "dk_score": 0.6848,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 41,
+          "to_slice": 42,
+          "dk_score": 0.6838,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 42,
+          "to_slice": 43,
+          "dk_score": 0.6861,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 43,
+          "to_slice": 44,
+          "dk_score": 0.6868,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 44,
+          "to_slice": 45,
+          "dk_score": 0.672,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 45,
+          "to_slice": 46,
+          "dk_score": 0.828,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 46,
+          "to_slice": 47,
+          "dk_score": 0.8726,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 47,
+          "to_slice": 48,
+          "dk_score": 0.7985,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 48,
+          "to_slice": 49,
+          "dk_score": 0.7796,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 49,
+          "to_slice": 50,
+          "dk_score": 0.8176,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 50,
+          "to_slice": 51,
+          "dk_score": 0.9464,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 51,
+          "to_slice": 52,
+          "dk_score": 1.0272,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 52,
+          "to_slice": 53,
+          "dk_score": 1.0652,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 53,
+          "to_slice": 54,
+          "dk_score": 1.0311,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 54,
+          "to_slice": 55,
+          "dk_score": 0.9977,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 55,
+          "to_slice": 56,
+          "dk_score": 1.0125,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 56,
+          "to_slice": 57,
+          "dk_score": 1.0399,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 57,
+          "to_slice": 58,
+          "dk_score": 0.9705,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 58,
+          "to_slice": 59,
+          "dk_score": 0.8711,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 59,
+          "to_slice": 60,
+          "dk_score": 0.8112,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 60,
+          "to_slice": 61,
+          "dk_score": 0.8489,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 61,
+          "to_slice": 62,
+          "dk_score": 0.8711,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 62,
+          "to_slice": 63,
+          "dk_score": 0.8449,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 63,
+          "to_slice": 64,
+          "dk_score": 0.8733,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 64,
+          "to_slice": 65,
+          "dk_score": 0.8364,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 65,
+          "to_slice": 66,
+          "dk_score": 0.8711,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 66,
+          "to_slice": 67,
+          "dk_score": 0.9641,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 67,
+          "to_slice": 68,
+          "dk_score": 0.96,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 68,
+          "to_slice": 69,
+          "dk_score": 0.9129,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 69,
+          "to_slice": 70,
+          "dk_score": 0.8695,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 70,
+          "to_slice": 71,
+          "dk_score": 0.9089,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 71,
+          "to_slice": 72,
+          "dk_score": 0.9409,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 72,
+          "to_slice": 73,
+          "dk_score": 1.0594,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 73,
+          "to_slice": 74,
+          "dk_score": 1.1173,
+          "status": "ANOMALY",
+          "is_anomaly": "True"
+        },
+        {
+          "from_slice": 74,
+          "to_slice": 75,
+          "dk_score": 1.1015,
+          "status": "ANOMALY",
+          "is_anomaly": "True"
+        },
+        {
+          "from_slice": 75,
+          "to_slice": 76,
+          "dk_score": 1.0534,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 76,
+          "to_slice": 77,
+          "dk_score": 1.0318,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 77,
+          "to_slice": 78,
+          "dk_score": 0.9846,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 78,
+          "to_slice": 79,
+          "dk_score": 0.9066,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 79,
+          "to_slice": 80,
+          "dk_score": 0.8811,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 80,
+          "to_slice": 81,
+          "dk_score": 0.8499,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 81,
+          "to_slice": 82,
+          "dk_score": 0.8175,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 82,
+          "to_slice": 83,
+          "dk_score": 0.8175,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 83,
+          "to_slice": 84,
+          "dk_score": 0.7968,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 84,
+          "to_slice": 85,
+          "dk_score": 0.7767,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 85,
+          "to_slice": 86,
+          "dk_score": 0.7642,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 86,
+          "to_slice": 87,
+          "dk_score": 0.7762,
+          "status": "Normal",
+          "is_anomaly": "False"
+        },
+        {
+          "from_slice": 87,
+          "to_slice": 88,
+          "dk_score": 0.7875,
+          "status": "Normal",
+          "is_anomaly": "False"
+        }
+      ],
+      "radiomics": [
+        {
+          "slice": 1,
+          "mean": 7.415572986109625,
+          "std": 1.0187852134355677,
+          "skewness": -0.04081284680145907,
+          "kurtosis": 0.8208588586667815,
+          "center_energy_ratio": 0.9999997528015893,
+          "entropy": 1.583855979152707,
+          "lr_asymmetry": 1.890848940689214,
+          "tb_asymmetry": 1.8875762445345492,
+          "angular_uniformity": 32.86977643327306
+        },
+        {
+          "slice": 2,
+          "mean": 7.4477480924088635,
+          "std": 1.0294122340611813,
+          "skewness": 0.04827271066569937,
+          "kurtosis": 0.8483290611846632,
+          "center_energy_ratio": 0.999999718976727,
+          "entropy": 1.6637070290361806,
+          "lr_asymmetry": 1.884326170251697,
+          "tb_asymmetry": 1.881698953663011,
+          "angular_uniformity": 32.86982255839862
+        },
+        {
+          "slice": 3,
+          "mean": 7.506725004353015,
+          "std": 1.109849070094355,
+          "skewness": 0.29116946515192577,
+          "kurtosis": 0.9998545671844843,
+          "center_energy_ratio": 0.9999995132523374,
+          "entropy": 1.9734054096446227,
+          "lr_asymmetry": 1.854606061765972,
+          "tb_asymmetry": 1.8524249541904816,
+          "angular_uniformity": 32.870101681669354
+        },
+        {
+          "slice": 4,
+          "mean": 7.514975273449069,
+          "std": 1.1318440204619173,
+          "skewness": 0.37993262008082257,
+          "kurtosis": 1.1612904751476671,
+          "center_energy_ratio": 0.999999393844193,
+          "entropy": 2.0861038875275737,
+          "lr_asymmetry": 1.8420910751558282,
+          "tb_asymmetry": 1.8388785816825757,
+          "angular_uniformity": 32.87028229921865
+        },
+        {
+          "slice": 5,
+          "mean": 7.498193757730361,
+          "std": 1.1421647771910863,
+          "skewness": 0.38639297545335,
+          "kurtosis": 1.17583132355474,
+          "center_energy_ratio": 0.9999994184925032,
+          "entropy": 2.0944437290428204,
+          "lr_asymmetry": 1.840004819731536,
+          "tb_asymmetry": 1.8358394931240998,
+          "angular_uniformity": 32.87042989195582
+        },
+        {
+          "slice": 6,
+          "mean": 7.522544031097942,
+          "std": 1.141487621920404,
+          "skewness": 0.3982290460904976,
+          "kurtosis": 1.2387611733516675,
+          "center_energy_ratio": 0.9999993701903453,
+          "entropy": 2.1457078779317103,
+          "lr_asymmetry": 1.838194382190657,
+          "tb_asymmetry": 1.8336500175639734,
+          "angular_uniformity": 32.87058432557183
+        },
+        {
+          "slice": 7,
+          "mean": 7.53730261416187,
+          "std": 1.128807594440638,
+          "skewness": 0.4219122912818472,
+          "kurtosis": 1.2077249606722358,
+          "center_energy_ratio": 0.9999993542026004,
+          "entropy": 2.1492997517354437,
+          "lr_asymmetry": 1.8351672031803365,
+          "tb_asymmetry": 1.8301874011629777,
+          "angular_uniformity": 32.87060270069827
+        },
+        {
+          "slice": 8,
+          "mean": 7.53163820007361,
+          "std": 1.1358691344960417,
+          "skewness": 0.40366227936695076,
+          "kurtosis": 1.175403632297865,
+          "center_energy_ratio": 0.9999993834031782,
+          "entropy": 2.1509158833216406,
+          "lr_asymmetry": 1.8371204254408435,
+          "tb_asymmetry": 1.8336700928657659,
+          "angular_uniformity": 32.87067247029658
+        },
+        {
+          "slice": 9,
+          "mean": 7.509000783853077,
+          "std": 1.117674805296489,
+          "skewness": 0.41290134445934246,
+          "kurtosis": 1.334771419879055,
+          "center_energy_ratio": 0.9999994251386854,
+          "entropy": 2.0866278788757153,
+          "lr_asymmetry": 1.8425891493349114,
+          "tb_asymmetry": 1.8376408333604841,
+          "angular_uniformity": 32.87069949402692
+        },
+        {
+          "slice": 10,
+          "mean": 7.55155873587421,
+          "std": 1.137825351251655,
+          "skewness": 0.4221467150616401,
+          "kurtosis": 1.2853515753632152,
+          "center_energy_ratio": 0.9999993099598526,
+          "entropy": 2.2005666247940523,
+          "lr_asymmetry": 1.8340414040674564,
+          "tb_asymmetry": 1.830413812496032,
+          "angular_uniformity": 32.87085287423361
+        },
+        {
+          "slice": 11,
+          "mean": 7.550474234249069,
+          "std": 1.144746279315604,
+          "skewness": 0.4537846298610133,
+          "kurtosis": 1.1236328815834167,
+          "center_energy_ratio": 0.9999992915632439,
+          "entropy": 2.207935495009063,
+          "lr_asymmetry": 1.8353071941706747,
+          "tb_asymmetry": 1.832999776549656,
+          "angular_uniformity": 32.87099130945478
+        },
+        {
+          "slice": 12,
+          "mean": 7.548725168239325,
+          "std": 1.163629698025649,
+          "skewness": 0.4747401259533911,
+          "kurtosis": 1.0929349645875126,
+          "center_energy_ratio": 0.9999992107461254,
+          "entropy": 2.254229790433314,
+          "lr_asymmetry": 1.8311090584673924,
+          "tb_asymmetry": 1.828420243732338,
+          "angular_uniformity": 32.87120569414895
+        },
+        {
+          "slice": 13,
+          "mean": 7.561365917221737,
+          "std": 1.2213852822007065,
+          "skewness": 0.564453829418747,
+          "kurtosis": 1.0302029765843228,
+          "center_energy_ratio": 0.9999987967008329,
+          "entropy": 2.4592072137282175,
+          "lr_asymmetry": 1.8112484542928684,
+          "tb_asymmetry": 1.8078352293579831,
+          "angular_uniformity": 32.87146283372598
+        },
+        {
+          "slice": 14,
+          "mean": 7.536125626207838,
+          "std": 1.1983178404097101,
+          "skewness": 0.5346157346982361,
+          "kurtosis": 1.0553524401197754,
+          "center_energy_ratio": 0.9999990638172626,
+          "entropy": 2.3425004902526494,
+          "lr_asymmetry": 1.8219269876796444,
+          "tb_asymmetry": 1.8181046903932854,
+          "angular_uniformity": 32.87160865407147
+        },
+        {
+          "slice": 15,
+          "mean": 7.511246960446233,
+          "std": 1.1887904192877647,
+          "skewness": 0.47347078242053,
+          "kurtosis": 1.0678345431686145,
+          "center_energy_ratio": 0.9999991967295547,
+          "entropy": 2.252110595935817,
+          "lr_asymmetry": 1.8295102594813974,
+          "tb_asymmetry": 1.8257233080448476,
+          "angular_uniformity": 32.87171949571877
+        },
+        {
+          "slice": 16,
+          "mean": 7.502688646541069,
+          "std": 1.1768953920179401,
+          "skewness": 0.4600341878395727,
+          "kurtosis": 1.06222199729776,
+          "center_energy_ratio": 0.9999992871367277,
+          "entropy": 2.199698675957051,
+          "lr_asymmetry": 1.8332397595265555,
+          "tb_asymmetry": 1.8296584438238346,
+          "angular_uniformity": 32.87166438696697
+        },
+        {
+          "slice": 17,
+          "mean": 7.500570226866568,
+          "std": 1.1876976985500458,
+          "skewness": 0.43017135357706626,
+          "kurtosis": 1.0235777567455235,
+          "center_energy_ratio": 0.9999992793144222,
+          "entropy": 2.2123555337718983,
+          "lr_asymmetry": 1.8322921711479236,
+          "tb_asymmetry": 1.8292638745794787,
+          "angular_uniformity": 32.87171076417966
+        },
+        {
+          "slice": 18,
+          "mean": 7.509879733897618,
+          "std": 1.2097813829731316,
+          "skewness": 0.4611679672624337,
+          "kurtosis": 0.9057058374872806,
+          "center_energy_ratio": 0.9999991882409751,
+          "entropy": 2.281632532753404,
+          "lr_asymmetry": 1.8263832502618118,
+          "tb_asymmetry": 1.824128865336976,
+          "angular_uniformity": 32.871746062438405
+        },
+        {
+          "slice": 19,
+          "mean": 7.532292671661764,
+          "std": 1.2211491997028092,
+          "skewness": 0.4871783573096579,
+          "kurtosis": 0.8792360501481848,
+          "center_energy_ratio": 0.9999990669218476,
+          "entropy": 2.3608575278876645,
+          "lr_asymmetry": 1.8183511859171635,
+          "tb_asymmetry": 1.8165516167643427,
+          "angular_uniformity": 32.871926309330604
+        },
+        {
+          "slice": 20,
+          "mean": 7.496506506842859,
+          "std": 1.2090504469534182,
+          "skewness": 0.46053728823444917,
+          "kurtosis": 0.9548169661594814,
+          "center_energy_ratio": 0.9999992186897095,
+          "entropy": 2.2642814808115364,
+          "lr_asymmetry": 1.827029041855349,
+          "tb_asymmetry": 1.824475337437047,
+          "angular_uniformity": 32.87203493764906
+        },
+        {
+          "slice": 21,
+          "mean": 7.49153930097426,
+          "std": 1.2093379530524788,
+          "skewness": 0.4435179353628434,
+          "kurtosis": 0.9227961663032249,
+          "center_energy_ratio": 0.9999992449468391,
+          "entropy": 2.244185363206535,
+          "lr_asymmetry": 1.8287922689119982,
+          "tb_asymmetry": 1.8252079787461897,
+          "angular_uniformity": 32.87208935949777
+        },
+        {
+          "slice": 22,
+          "mean": 7.490120151084966,
+          "std": 1.2013191060786503,
+          "skewness": 0.4742214344718986,
+          "kurtosis": 0.873360852546385,
+          "center_energy_ratio": 0.9999992708938158,
+          "entropy": 2.2286616657758467,
+          "lr_asymmetry": 1.8305887944771293,
+          "tb_asymmetry": 1.8277423051343933,
+          "angular_uniformity": 32.8721762809927
+        },
+        {
+          "slice": 23,
+          "mean": 7.488462302284008,
+          "std": 1.2103624627320464,
+          "skewness": 0.47770907718356564,
+          "kurtosis": 0.8636972263329707,
+          "center_energy_ratio": 0.9999992462876991,
+          "entropy": 2.2497148427249996,
+          "lr_asymmetry": 1.8287882916088143,
+          "tb_asymmetry": 1.8259832780403968,
+          "angular_uniformity": 32.87223215882263
+        },
+        {
+          "slice": 24,
+          "mean": 7.4957279733112605,
+          "std": 1.196769592987214,
+          "skewness": 0.4538229045737897,
+          "kurtosis": 0.9430641228004868,
+          "center_energy_ratio": 0.9999992736258047,
+          "entropy": 2.228751090092454,
+          "lr_asymmetry": 1.8306851720648634,
+          "tb_asymmetry": 1.8273857324974376,
+          "angular_uniformity": 32.872164716991485
+        },
+        {
+          "slice": 25,
+          "mean": 7.502888189467223,
+          "std": 1.189902875380832,
+          "skewness": 0.4508364355618286,
+          "kurtosis": 0.9669801474466055,
+          "center_energy_ratio": 0.999999289843702,
+          "entropy": 2.22215137735221,
+          "lr_asymmetry": 1.8307235437357838,
+          "tb_asymmetry": 1.82706829050645,
+          "angular_uniformity": 32.87219076675661
+        },
+        {
+          "slice": 26,
+          "mean": 7.495139629481459,
+          "std": 1.1785674672647615,
+          "skewness": 0.4587284566271654,
+          "kurtosis": 0.9147905762702839,
+          "center_energy_ratio": 0.9999993116731474,
+          "entropy": 2.1798080672609412,
+          "lr_asymmetry": 1.8362263034928736,
+          "tb_asymmetry": 1.8323970108540797,
+          "angular_uniformity": 32.87204176160774
+        },
+        {
+          "slice": 27,
+          "mean": 7.491416081810836,
+          "std": 1.164944942170885,
+          "skewness": 0.41767169532514126,
+          "kurtosis": 1.058022525882869,
+          "center_energy_ratio": 0.9999993745477024,
+          "entropy": 2.139119325246524,
+          "lr_asymmetry": 1.838812987760111,
+          "tb_asymmetry": 1.8351920794072358,
+          "angular_uniformity": 32.87213717871952
+        },
+        {
+          "slice": 28,
+          "mean": 7.469678077949853,
+          "std": 1.1608925731300672,
+          "skewness": 0.4212643323532691,
+          "kurtosis": 0.9856927604293295,
+          "center_energy_ratio": 0.9999994190987813,
+          "entropy": 2.0897108327178917,
+          "lr_asymmetry": 1.844780058086425,
+          "tb_asymmetry": 1.8406980686226573,
+          "angular_uniformity": 32.872130014542854
+        },
+        {
+          "slice": 29,
+          "mean": 7.49081989605925,
+          "std": 1.1592982885328282,
+          "skewness": 0.4175662078249379,
+          "kurtosis": 0.9275437639490898,
+          "center_energy_ratio": 0.9999994123179905,
+          "entropy": 2.1117168721602813,
+          "lr_asymmetry": 1.8428633133098482,
+          "tb_asymmetry": 1.838889309675897,
+          "angular_uniformity": 32.87212731769034
+        },
+        {
+          "slice": 30,
+          "mean": 7.48381064003324,
+          "std": 1.1536427122740418,
+          "skewness": 0.39190052563777245,
+          "kurtosis": 0.9998281984482111,
+          "center_energy_ratio": 0.999999437608752,
+          "entropy": 2.077674942563565,
+          "lr_asymmetry": 1.846138044407306,
+          "tb_asymmetry": 1.8423557339098535,
+          "angular_uniformity": 32.87196564842901
+        },
+        {
+          "slice": 31,
+          "mean": 7.473847927907298,
+          "std": 1.1638097660825872,
+          "skewness": 0.39742924707442423,
+          "kurtosis": 0.8711646707807867,
+          "center_energy_ratio": 0.9999994121647215,
+          "entropy": 2.0767136035016023,
+          "lr_asymmetry": 1.8469014168224345,
+          "tb_asymmetry": 1.843081034163075,
+          "angular_uniformity": 32.87191059356102
+        },
+        {
+          "slice": 32,
+          "mean": 7.473221875236705,
+          "std": 1.1497896660544855,
+          "skewness": 0.35855426601170204,
+          "kurtosis": 0.930311774319863,
+          "center_energy_ratio": 0.999999431869748,
+          "entropy": 2.0337519891463294,
+          "lr_asymmetry": 1.8510777074728064,
+          "tb_asymmetry": 1.8480891978633676,
+          "angular_uniformity": 32.87165179896633
+        },
+        {
+          "slice": 33,
+          "mean": 7.466241685749828,
+          "std": 1.1439653588772019,
+          "skewness": 0.30888765764115794,
+          "kurtosis": 0.8985424990596846,
+          "center_energy_ratio": 0.9999994938644874,
+          "entropy": 1.9866865236913374,
+          "lr_asymmetry": 1.8549224990265138,
+          "tb_asymmetry": 1.852136119522448,
+          "angular_uniformity": 32.87142797995189
+        },
+        {
+          "slice": 34,
+          "mean": 7.470490281567517,
+          "std": 1.1294611072140879,
+          "skewness": 0.2891863628756477,
+          "kurtosis": 0.8455039713274148,
+          "center_energy_ratio": 0.9999995221936834,
+          "entropy": 1.9516521122596542,
+          "lr_asymmetry": 1.8589070976037463,
+          "tb_asymmetry": 1.8566058308480529,
+          "angular_uniformity": 32.87117691606584
+        },
+        {
+          "slice": 35,
+          "mean": 7.457331177473404,
+          "std": 1.1179709135388671,
+          "skewness": 0.2272073987976628,
+          "kurtosis": 0.836537477482274,
+          "center_energy_ratio": 0.9999995756024067,
+          "entropy": 1.8893769541085144,
+          "lr_asymmetry": 1.8639402350985916,
+          "tb_asymmetry": 1.860917694144206,
+          "angular_uniformity": 32.871042623752665
+        },
+        {
+          "slice": 36,
+          "mean": 7.4689384695623815,
+          "std": 1.097279669940302,
+          "skewness": 0.20089242838703916,
+          "kurtosis": 0.8789000253698558,
+          "center_energy_ratio": 0.9999996025298193,
+          "entropy": 1.8635996686034404,
+          "lr_asymmetry": 1.8663092156702301,
+          "tb_asymmetry": 1.864070686516564,
+          "angular_uniformity": 32.87076211968783
+        },
+        {
+          "slice": 37,
+          "mean": 7.4648589331610475,
+          "std": 1.084519689561195,
+          "skewness": 0.18235930035508482,
+          "kurtosis": 0.8448905814897163,
+          "center_energy_ratio": 0.9999996302249217,
+          "entropy": 1.8255585376618875,
+          "lr_asymmetry": 1.870422853211098,
+          "tb_asymmetry": 1.867072270575016,
+          "angular_uniformity": 32.87053684229746
+        },
+        {
+          "slice": 38,
+          "mean": 7.476853126656344,
+          "std": 1.0769162987036005,
+          "skewness": 0.15006043671731115,
+          "kurtosis": 0.8771360261533339,
+          "center_energy_ratio": 0.9999996356154635,
+          "entropy": 1.819808409366816,
+          "lr_asymmetry": 1.871210515549692,
+          "tb_asymmetry": 1.86851126473876,
+          "angular_uniformity": 32.87034207619599
+        },
+        {
+          "slice": 39,
+          "mean": 7.45889219053773,
+          "std": 1.0515267894526468,
+          "skewness": 0.10593082762547243,
+          "kurtosis": 0.9712374628906444,
+          "center_energy_ratio": 0.9999996874300677,
+          "entropy": 1.7397018971711267,
+          "lr_asymmetry": 1.8775480278940377,
+          "tb_asymmetry": 1.8749615194022111,
+          "angular_uniformity": 32.87011516414504
+        },
+        {
+          "slice": 40,
+          "mean": 7.441679757056557,
+          "std": 1.036936221504954,
+          "skewness": 0.05459594875175497,
+          "kurtosis": 0.8877251448460517,
+          "center_energy_ratio": 0.9999997205363202,
+          "entropy": 1.676260482782831,
+          "lr_asymmetry": 1.8836226068135085,
+          "tb_asymmetry": 1.8804749519021768,
+          "angular_uniformity": 32.86999977245511
+        },
+        {
+          "slice": 41,
+          "mean": 7.431744312170877,
+          "std": 1.0181006612256691,
+          "skewness": -0.04179964357812827,
+          "kurtosis": 0.9386817514882244,
+          "center_energy_ratio": 0.9999997518571456,
+          "entropy": 1.612946989106708,
+          "lr_asymmetry": 1.8897478177393927,
+          "tb_asymmetry": 1.88515266047459,
+          "angular_uniformity": 32.86984809765391
+        },
+        {
+          "slice": 42,
+          "mean": 7.433042147320898,
+          "std": 1.0022900463731863,
+          "skewness": -0.06087891706056983,
+          "kurtosis": 0.9769769834863444,
+          "center_energy_ratio": 0.9999997608156922,
+          "entropy": 1.5915951836510034,
+          "lr_asymmetry": 1.8911904336959193,
+          "tb_asymmetry": 1.8872836462364293,
+          "angular_uniformity": 32.86979299958989
+        },
+        {
+          "slice": 43,
+          "mean": 7.429886576281046,
+          "std": 0.9987471513217931,
+          "skewness": -0.08860872070251372,
+          "kurtosis": 1.010854724042689,
+          "center_energy_ratio": 0.9999997659869339,
+          "entropy": 1.5781428715238823,
+          "lr_asymmetry": 1.8919337960364175,
+          "tb_asymmetry": 1.8877799565613882,
+          "angular_uniformity": 32.86976853648593
+        },
+        {
+          "slice": 44,
+          "mean": 7.41602472712767,
+          "std": 0.9975003427906655,
+          "skewness": -0.08540957249657784,
+          "kurtosis": 0.9605697150703301,
+          "center_energy_ratio": 0.9999997730549387,
+          "entropy": 1.5572491964040138,
+          "lr_asymmetry": 1.8931587958163452,
+          "tb_asymmetry": 1.8890819129930232,
+          "angular_uniformity": 32.869744740421474
+        },
+        {
+          "slice": 45,
+          "mean": 7.986805529237367,
+          "std": 1.2910757748960344,
+          "skewness": 0.5270921625734714,
+          "kurtosis": 0.8550797491678925,
+          "center_energy_ratio": 0.999996423508341,
+          "entropy": 3.6425264984251067,
+          "lr_asymmetry": 1.6942018634887819,
+          "tb_asymmetry": 1.6939554138665516,
+          "angular_uniformity": 32.871103981943506
+        },
+        {
+          "slice": 46,
+          "mean": 8.21362958694724,
+          "std": 1.404297588633187,
+          "skewness": 0.6145329306353339,
+          "kurtosis": 0.48839508104309326,
+          "center_energy_ratio": 0.9999908913472103,
+          "entropy": 4.725566554098955,
+          "lr_asymmetry": 1.575924331654119,
+          "tb_asymmetry": 1.5753636463031284,
+          "angular_uniformity": 32.87144860872784
+        },
+        {
+          "slice": 47,
+          "mean": 8.106966847926932,
+          "std": 1.3739093272374052,
+          "skewness": 0.6376005919051154,
+          "kurtosis": 0.5855258129741872,
+          "center_energy_ratio": 0.9999930304923902,
+          "entropy": 4.3152357585600445,
+          "lr_asymmetry": 1.630481079518637,
+          "tb_asymmetry": 1.6352015779254474,
+          "angular_uniformity": 32.87222780615398
+        },
+        {
+          "slice": 48,
+          "mean": 8.093577599030088,
+          "std": 1.3742146348397433,
+          "skewness": 0.6059040502340687,
+          "kurtosis": 0.6124319036396049,
+          "center_energy_ratio": 0.9999933967021994,
+          "entropy": 4.27951447465832,
+          "lr_asymmetry": 1.6334762210039988,
+          "tb_asymmetry": 1.6369250504516561,
+          "angular_uniformity": 32.872728574769496
+        },
+        {
+          "slice": 49,
+          "mean": 8.100175128978893,
+          "std": 1.3844788673454707,
+          "skewness": 0.6354868467496774,
+          "kurtosis": 0.5504217388266954,
+          "center_energy_ratio": 0.9999932495494857,
+          "entropy": 4.3506888991442105,
+          "lr_asymmetry": 1.6279083330670552,
+          "tb_asymmetry": 1.6295007359190568,
+          "angular_uniformity": 32.873096419993644
+        },
+        {
+          "slice": 50,
+          "mean": 8.162375963270414,
+          "std": 1.4032078029416284,
+          "skewness": 0.6546258387420416,
+          "kurtosis": 0.5292189941193239,
+          "center_energy_ratio": 0.9999913333877578,
+          "entropy": 4.631024562521953,
+          "lr_asymmetry": 1.6067187455090484,
+          "tb_asymmetry": 1.6066070011036897,
+          "angular_uniformity": 32.87352804375952
+        },
+        {
+          "slice": 51,
+          "mean": 8.279795480979933,
+          "std": 1.4076154499573361,
+          "skewness": 0.6929321329124652,
+          "kurtosis": 0.6589641813430798,
+          "center_energy_ratio": 0.9999867976723187,
+          "entropy": 5.092735409874287,
+          "lr_asymmetry": 1.5665124070847973,
+          "tb_asymmetry": 1.564709716347104,
+          "angular_uniformity": 32.87369289674375
+        },
+        {
+          "slice": 52,
+          "mean": 8.310673037918544,
+          "std": 1.4336270360163095,
+          "skewness": 0.7606871727945242,
+          "kurtosis": 0.6528984441874495,
+          "center_energy_ratio": 0.9999842607750183,
+          "entropy": 5.374743668945602,
+          "lr_asymmetry": 1.52800375182946,
+          "tb_asymmetry": 1.5250971044218289,
+          "angular_uniformity": 32.87414514502146
+        },
+        {
+          "slice": 53,
+          "mean": 8.266009102513149,
+          "std": 1.4051991150195757,
+          "skewness": 0.7188033487471631,
+          "kurtosis": 0.6776956067252868,
+          "center_energy_ratio": 0.9999876809408772,
+          "entropy": 5.056364506367847,
+          "lr_asymmetry": 1.5738042241932482,
+          "tb_asymmetry": 1.5693022022418144,
+          "angular_uniformity": 32.87411641432752
+        },
+        {
+          "slice": 54,
+          "mean": 8.308892205083055,
+          "std": 1.4555096863354604,
+          "skewness": 0.8064481723627905,
+          "kurtosis": 0.689157463768463,
+          "center_energy_ratio": 0.9999823486147646,
+          "entropy": 5.521765790347917,
+          "lr_asymmetry": 1.5150422115242832,
+          "tb_asymmetry": 1.5099029198891483,
+          "angular_uniformity": 32.875142332545316
+        },
+        {
+          "slice": 55,
+          "mean": 8.255888930463188,
+          "std": 1.4704013766998427,
+          "skewness": 0.7614119316410406,
+          "kurtosis": 0.5625923185813106,
+          "center_energy_ratio": 0.9999846109938,
+          "entropy": 5.3583703740188735,
+          "lr_asymmetry": 1.5325433427240565,
+          "tb_asymmetry": 1.5331484807404239,
+          "angular_uniformity": 32.87565470092381
+        },
+        {
+          "slice": 56,
+          "mean": 8.279030690672412,
+          "std": 1.466488692802088,
+          "skewness": 0.7368022353121988,
+          "kurtosis": 0.5429263334909309,
+          "center_energy_ratio": 0.999983939453129,
+          "entropy": 5.372521604687309,
+          "lr_asymmetry": 1.5454658656163485,
+          "tb_asymmetry": 1.5468387496840335,
+          "angular_uniformity": 32.87609470653981
+        },
+        {
+          "slice": 57,
+          "mean": 8.268706752292523,
+          "std": 1.548234627933893,
+          "skewness": 0.7723721455391762,
+          "kurtosis": 0.4955135821524266,
+          "center_energy_ratio": 0.9999762266352998,
+          "entropy": 5.813189919181747,
+          "lr_asymmetry": 1.486966216033714,
+          "tb_asymmetry": 1.4808074743297555,
+          "angular_uniformity": 32.8770632716584
+        },
+        {
+          "slice": 58,
+          "mean": 8.216086638798677,
+          "std": 1.508565411512743,
+          "skewness": 0.7729147244947064,
+          "kurtosis": 0.5373752606814501,
+          "center_energy_ratio": 0.9999845618941895,
+          "entropy": 5.442818359285017,
+          "lr_asymmetry": 1.5258076894160006,
+          "tb_asymmetry": 1.5207912760726856,
+          "angular_uniformity": 32.8776186509744
+        },
+        {
+          "slice": 59,
+          "mean": 8.145914154815094,
+          "std": 1.5009564789938736,
+          "skewness": 0.728677657788143,
+          "kurtosis": 0.49939246652787306,
+          "center_energy_ratio": 0.9999876978908125,
+          "entropy": 5.128611827380849,
+          "lr_asymmetry": 1.5548452478953954,
+          "tb_asymmetry": 1.549772353532476,
+          "angular_uniformity": 32.877996445594526
+        },
+        {
+          "slice": 60,
+          "mean": 8.13940693495901,
+          "std": 1.5049647392293348,
+          "skewness": 0.7097350424691935,
+          "kurtosis": 0.43923218923317764,
+          "center_energy_ratio": 0.9999881187787382,
+          "entropy": 5.086574842199344,
+          "lr_asymmetry": 1.5614172260832997,
+          "tb_asymmetry": 1.5613206273410625,
+          "angular_uniformity": 32.8780715836475
+        },
+        {
+          "slice": 61,
+          "mean": 8.185313366661653,
+          "std": 1.5277903198667766,
+          "skewness": 0.7545294463852025,
+          "kurtosis": 0.4227878016270292,
+          "center_energy_ratio": 0.9999847511512573,
+          "entropy": 5.386734559489927,
+          "lr_asymmetry": 1.5320641714167023,
+          "tb_asymmetry": 1.5282577611994714,
+          "angular_uniformity": 32.87874828366648
+        },
+        {
+          "slice": 62,
+          "mean": 8.170189964122258,
+          "std": 1.5539235310986546,
+          "skewness": 0.7349627845916122,
+          "kurtosis": 0.40438401889572484,
+          "center_energy_ratio": 0.99998317529343,
+          "entropy": 5.452279497321016,
+          "lr_asymmetry": 1.5217027328153583,
+          "tb_asymmetry": 1.5228385549164483,
+          "angular_uniformity": 32.87861560771251
+        },
+        {
+          "slice": 63,
+          "mean": 8.18092160896434,
+          "std": 1.527722357211308,
+          "skewness": 0.7213556962938872,
+          "kurtosis": 0.3761841397374375,
+          "center_energy_ratio": 0.999985388051892,
+          "entropy": 5.323627376653263,
+          "lr_asymmetry": 1.5346526303517185,
+          "tb_asymmetry": 1.5315647842325648,
+          "angular_uniformity": 32.87857123171902
+        },
+        {
+          "slice": 64,
+          "mean": 8.21283057067744,
+          "std": 1.5300027003980943,
+          "skewness": 0.7465672774939334,
+          "kurtosis": 0.41185016714237355,
+          "center_energy_ratio": 0.9999841036679882,
+          "entropy": 5.466081651723666,
+          "lr_asymmetry": 1.518377880684188,
+          "tb_asymmetry": 1.5157435061807756,
+          "angular_uniformity": 32.87899292597691
+        },
+        {
+          "slice": 65,
+          "mean": 8.185614665363499,
+          "std": 1.5530934287122733,
+          "skewness": 0.7280229249451485,
+          "kurtosis": 0.3591131664556424,
+          "center_energy_ratio": 0.9999832161988614,
+          "entropy": 5.469410554251871,
+          "lr_asymmetry": 1.526905553813753,
+          "tb_asymmetry": 1.5198611090137337,
+          "angular_uniformity": 32.87908843447292
+        },
+        {
+          "slice": 66,
+          "mean": 8.222608661953497,
+          "std": 1.553046344998843,
+          "skewness": 0.7410501967636925,
+          "kurtosis": 0.3539307488804435,
+          "center_energy_ratio": 0.9999806402884135,
+          "entropy": 5.605438517886128,
+          "lr_asymmetry": 1.5162223443941725,
+          "tb_asymmetry": 1.5101631619249993,
+          "angular_uniformity": 32.87934287369075
+        },
+        {
+          "slice": 67,
+          "mean": 8.287486087943225,
+          "std": 1.5422883188466932,
+          "skewness": 0.7825700991968114,
+          "kurtosis": 0.3971082564596644,
+          "center_energy_ratio": 0.9999782362547684,
+          "entropy": 5.811324991702163,
+          "lr_asymmetry": 1.4920288620060786,
+          "tb_asymmetry": 1.4895739997868802,
+          "angular_uniformity": 32.87985873529388
+        },
+        {
+          "slice": 68,
+          "mean": 8.254351485231826,
+          "std": 1.5531591454383897,
+          "skewness": 0.7827858572352299,
+          "kurtosis": 0.43164957424764916,
+          "center_energy_ratio": 0.999978726403756,
+          "entropy": 5.779676292151761,
+          "lr_asymmetry": 1.4911162383855272,
+          "tb_asymmetry": 1.485003396605725,
+          "angular_uniformity": 32.88007780692208
+        },
+        {
+          "slice": 69,
+          "mean": 8.23361223605824,
+          "std": 1.5456878854583593,
+          "skewness": 0.767129479118273,
+          "kurtosis": 0.4670929147618996,
+          "center_energy_ratio": 0.999979762847448,
+          "entropy": 5.672848872444545,
+          "lr_asymmetry": 1.5061896617464414,
+          "tb_asymmetry": 1.5019594068113127,
+          "angular_uniformity": 32.87990635279421
+        },
+        {
+          "slice": 70,
+          "mean": 8.24693403526122,
+          "std": 1.5257902935439855,
+          "skewness": 0.786597003544831,
+          "kurtosis": 0.5459894178255293,
+          "center_energy_ratio": 0.9999793476015084,
+          "entropy": 5.659399665328713,
+          "lr_asymmetry": 1.5106268717079252,
+          "tb_asymmetry": 1.5060946962041848,
+          "angular_uniformity": 32.879734291332696
+        },
+        {
+          "slice": 71,
+          "mean": 8.305890284692842,
+          "std": 1.5374923229613127,
+          "skewness": 0.7841428622569796,
+          "kurtosis": 0.47921353694322244,
+          "center_energy_ratio": 0.9999769456053159,
+          "entropy": 5.887665570834031,
+          "lr_asymmetry": 1.4748788710896958,
+          "tb_asymmetry": 1.469077970180856,
+          "angular_uniformity": 32.87978727853078
+        },
+        {
+          "slice": 72,
+          "mean": 8.295999946091158,
+          "std": 1.5623155211347,
+          "skewness": 0.7653551116973751,
+          "kurtosis": 0.4890308198601083,
+          "center_energy_ratio": 0.9999745865257406,
+          "entropy": 5.976125263342913,
+          "lr_asymmetry": 1.4704144156143093,
+          "tb_asymmetry": 1.4679079542449307,
+          "angular_uniformity": 32.87973423662466
+        },
+        {
+          "slice": 73,
+          "mean": 8.331194177694105,
+          "std": 1.5656552905887688,
+          "skewness": 0.7928446159833611,
+          "kurtosis": 0.4699135237413907,
+          "center_energy_ratio": 0.9999719208614563,
+          "entropy": 6.133143718985626,
+          "lr_asymmetry": 1.4490084654898407,
+          "tb_asymmetry": 1.4483477626116261,
+          "angular_uniformity": 32.880154090417875
+        },
+        {
+          "slice": 74,
+          "mean": 8.352973822315345,
+          "std": 1.572665397334913,
+          "skewness": 0.8057694385345247,
+          "kurtosis": 0.4609002928332373,
+          "center_energy_ratio": 0.999969825398037,
+          "entropy": 6.244705809075754,
+          "lr_asymmetry": 1.4352613802954535,
+          "tb_asymmetry": 1.433013735204848,
+          "angular_uniformity": 32.880032285782484
+        },
+        {
+          "slice": 75,
+          "mean": 8.296721515826853,
+          "std": 1.582083355586446,
+          "skewness": 0.7939767859641312,
+          "kurtosis": 0.4654214637052436,
+          "center_energy_ratio": 0.9999709578620851,
+          "entropy": 6.105211708783008,
+          "lr_asymmetry": 1.453943043947756,
+          "tb_asymmetry": 1.450990461981054,
+          "angular_uniformity": 32.880040102514
+        },
+        {
+          "slice": 76,
+          "mean": 8.271341072508424,
+          "std": 1.5926094359922478,
+          "skewness": 0.830125713990974,
+          "kurtosis": 0.49417719056042175,
+          "center_energy_ratio": 0.999969351156195,
+          "entropy": 6.1388038675979715,
+          "lr_asymmetry": 1.4492676077570206,
+          "tb_asymmetry": 1.4474626681525473,
+          "angular_uniformity": 32.880130492204465
+        },
+        {
+          "slice": 77,
+          "mean": 8.297992327882913,
+          "std": 1.5827164225928863,
+          "skewness": 0.8300553195370506,
+          "kurtosis": 0.550302065747136,
+          "center_energy_ratio": 0.9999678996336463,
+          "entropy": 6.200010437291898,
+          "lr_asymmetry": 1.4457611987325616,
+          "tb_asymmetry": 1.438528687043779,
+          "angular_uniformity": 32.88005434104571
+        },
+        {
+          "slice": 78,
+          "mean": 8.22370179535515,
+          "std": 1.57913086718138,
+          "skewness": 0.8421887639511451,
+          "kurtosis": 0.605795894643864,
+          "center_energy_ratio": 0.999972107725247,
+          "entropy": 5.980425472265176,
+          "lr_asymmetry": 1.4634191147758397,
+          "tb_asymmetry": 1.4589308622154085,
+          "angular_uniformity": 32.879403772626304
+        },
+        {
+          "slice": 79,
+          "mean": 8.188322883422854,
+          "std": 1.5751755496952704,
+          "skewness": 0.851269445571883,
+          "kurtosis": 0.6527376006525474,
+          "center_energy_ratio": 0.9999723858029433,
+          "entropy": 5.8787131080033115,
+          "lr_asymmetry": 1.4698664220090303,
+          "tb_asymmetry": 1.465960687235974,
+          "angular_uniformity": 32.87888603649413
+        },
+        {
+          "slice": 80,
+          "mean": 8.177478999332873,
+          "std": 1.5540496972488425,
+          "skewness": 0.8264918656531663,
+          "kurtosis": 0.6231037908216477,
+          "center_energy_ratio": 0.9999773808196469,
+          "entropy": 5.679587254311659,
+          "lr_asymmetry": 1.493293785090239,
+          "tb_asymmetry": 1.493584157994605,
+          "angular_uniformity": 32.87790203377792
+        },
+        {
+          "slice": 81,
+          "mean": 8.15752115973963,
+          "std": 1.5137381016974074,
+          "skewness": 0.7964933714990349,
+          "kurtosis": 0.7003220360799003,
+          "center_energy_ratio": 0.9999818732480061,
+          "entropy": 5.3868457193575265,
+          "lr_asymmetry": 1.526057416032986,
+          "tb_asymmetry": 1.5273327626625681,
+          "angular_uniformity": 32.87684992151853
+        },
+        {
+          "slice": 82,
+          "mean": 8.138622650440364,
+          "std": 1.478128146560138,
+          "skewness": 0.7964962636792097,
+          "kurtosis": 0.7722149171890829,
+          "center_energy_ratio": 0.9999848747820016,
+          "entropy": 5.163438969002975,
+          "lr_asymmetry": 1.5480548442439563,
+          "tb_asymmetry": 1.552151524120745,
+          "angular_uniformity": 32.87614313236648
+        },
+        {
+          "slice": 83,
+          "mean": 8.132373452787904,
+          "std": 1.4226005989529988,
+          "skewness": 0.7609300859518856,
+          "kurtosis": 0.905618734380786,
+          "center_energy_ratio": 0.9999882460422161,
+          "entropy": 4.87860884827357,
+          "lr_asymmetry": 1.5654466356224428,
+          "tb_asymmetry": 1.5705122116238721,
+          "angular_uniformity": 32.87552407129277
+        },
+        {
+          "slice": 84,
+          "mean": 8.07399183738659,
+          "std": 1.365559846394046,
+          "skewness": 0.7142199019659783,
+          "kurtosis": 0.9798600124113936,
+          "center_energy_ratio": 0.9999919216902124,
+          "entropy": 4.409867098715619,
+          "lr_asymmetry": 1.6196046622439808,
+          "tb_asymmetry": 1.6232919687694014,
+          "angular_uniformity": 32.87452329544348
+        },
+        {
+          "slice": 85,
+          "mean": 8.021884381523044,
+          "std": 1.2904846912130434,
+          "skewness": 0.5512685051467728,
+          "kurtosis": 0.9469070271452393,
+          "center_energy_ratio": 0.9999965089151016,
+          "entropy": 3.827190765840091,
+          "lr_asymmetry": 1.6717373986032473,
+          "tb_asymmetry": 1.673997918505209,
+          "angular_uniformity": 32.873444783397076
+        },
+        {
+          "slice": 86,
+          "mean": 8.032208672081108,
+          "std": 1.2740053972628937,
+          "skewness": 0.502703362696818,
+          "kurtosis": 0.8955940693783622,
+          "center_energy_ratio": 0.9999968198841811,
+          "entropy": 3.709945434159579,
+          "lr_asymmetry": 1.687285818316501,
+          "tb_asymmetry": 1.6885321458267901,
+          "angular_uniformity": 32.871758642360106
+        },
+        {
+          "slice": 87,
+          "mean": 7.96845648382312,
+          "std": 1.1443609837435373,
+          "skewness": 0.27364157561283053,
+          "kurtosis": 0.7328357080303989,
+          "center_energy_ratio": 0.9999987704725021,
+          "entropy": 2.9376305646097474,
+          "lr_asymmetry": 1.7731008408517115,
+          "tb_asymmetry": 1.7714146232901862,
+          "angular_uniformity": 32.87043821000631
+        },
+        {
+          "slice": 88,
+          "mean": 7.871822969738363,
+          "std": 1.0397384067028475,
+          "skewness": -0.08965717544985238,
+          "kurtosis": 0.6605097522938927,
+          "center_energy_ratio": 0.9999994432033006,
+          "entropy": 2.3373418872219656,
+          "lr_asymmetry": 1.8331482014969143,
+          "tb_asymmetry": 1.8295605959462935,
+          "angular_uniformity": 32.86997917088987
+        }
+      ],
+      "phase": [
+        {
+          "slice": 1,
+          "phase_gradient_mean": 1.5074004461782025,
+          "hermitian_error": 1.5701822737733822,
+          "mean_coherence": 0.061766354750595207,
+          "phase_entropy": 7.9971835396025535,
+          "quadrant_consistency": 0.021605722860809515
+        },
+        {
+          "slice": 2,
+          "phase_gradient_mean": 1.5296701756386253,
+          "hermitian_error": 1.5464521063048293,
+          "mean_coherence": 0.056086976869007765,
+          "phase_entropy": 7.996898407979085,
+          "quadrant_consistency": 0.03416151533614277
+        },
+        {
+          "slice": 3,
+          "phase_gradient_mean": 1.5505412512274646,
+          "hermitian_error": 1.5392183246958258,
+          "mean_coherence": 0.04643826239281499,
+          "phase_entropy": 7.998190211623193,
+          "quadrant_consistency": 0.012565654238054606
+        },
+        {
+          "slice": 4,
+          "phase_gradient_mean": 1.567387158065999,
+          "hermitian_error": 1.522809655684883,
+          "mean_coherence": 0.03959095675867992,
+          "phase_entropy": 7.996936908448328,
+          "quadrant_consistency": 0.01584400897874515
+        },
+        {
+          "slice": 5,
+          "phase_gradient_mean": 1.5672095163953355,
+          "hermitian_error": 1.5531441202287875,
+          "mean_coherence": 0.04417349704394564,
+          "phase_entropy": 7.997831698902846,
+          "quadrant_consistency": 0.010423530203332238
+        },
+        {
+          "slice": 6,
+          "phase_gradient_mean": 1.5587211462887562,
+          "hermitian_error": 1.555034211568787,
+          "mean_coherence": 0.043052150175899535,
+          "phase_entropy": 7.996982019166223,
+          "quadrant_consistency": 0.00885400376426431
+        },
+        {
+          "slice": 7,
+          "phase_gradient_mean": 1.576512504391043,
+          "hermitian_error": 1.5486770627269064,
+          "mean_coherence": 0.04713994634648817,
+          "phase_entropy": 7.997274027231213,
+          "quadrant_consistency": 0.013672239956239523
+        },
+        {
+          "slice": 8,
+          "phase_gradient_mean": 1.5718374737301262,
+          "hermitian_error": 1.5538872677489013,
+          "mean_coherence": 0.04641700596712701,
+          "phase_entropy": 7.997066600665525,
+          "quadrant_consistency": 0.016741064304591186
+        },
+        {
+          "slice": 9,
+          "phase_gradient_mean": 1.570744292389513,
+          "hermitian_error": 1.5730995767583769,
+          "mean_coherence": 0.055879678776169645,
+          "phase_entropy": 7.996885956164568,
+          "quadrant_consistency": 0.013130248829545015
+        },
+        {
+          "slice": 10,
+          "phase_gradient_mean": 1.5887842855128913,
+          "hermitian_error": 1.559004144925591,
+          "mean_coherence": 0.04256322046839122,
+          "phase_entropy": 7.99733154134994,
+          "quadrant_consistency": 0.027011213950249385
+        },
+        {
+          "slice": 11,
+          "phase_gradient_mean": 1.5915058022268695,
+          "hermitian_error": 1.5461378694948693,
+          "mean_coherence": 0.05018427561008141,
+          "phase_entropy": 7.997372299546191,
+          "quadrant_consistency": 0.008259763885006011
+        },
+        {
+          "slice": 12,
+          "phase_gradient_mean": 1.5965103216630094,
+          "hermitian_error": 1.55295635762741,
+          "mean_coherence": 0.04289771052079111,
+          "phase_entropy": 7.997194511026835,
+          "quadrant_consistency": 0.006927124214589227
+        },
+        {
+          "slice": 13,
+          "phase_gradient_mean": 1.57676882255431,
+          "hermitian_error": 1.5729013712192597,
+          "mean_coherence": 0.03531767829691978,
+          "phase_entropy": 7.9971229027447555,
+          "quadrant_consistency": 0.0174830266727675
+        },
+        {
+          "slice": 14,
+          "phase_gradient_mean": 1.5636810578103013,
+          "hermitian_error": 1.5714245782813059,
+          "mean_coherence": 0.040670971582379804,
+          "phase_entropy": 7.996870666198341,
+          "quadrant_consistency": 0.015050530247467886
+        },
+        {
+          "slice": 15,
+          "phase_gradient_mean": 1.538304546312204,
+          "hermitian_error": 1.5771316989739246,
+          "mean_coherence": 0.04064718918735489,
+          "phase_entropy": 7.9977403742440805,
+          "quadrant_consistency": 0.0048690131552239805
+        },
+        {
+          "slice": 16,
+          "phase_gradient_mean": 1.5413127983785986,
+          "hermitian_error": 1.5824108756951785,
+          "mean_coherence": 0.04363217004724659,
+          "phase_entropy": 7.997325011067167,
+          "quadrant_consistency": 0.008313716133850388
+        },
+        {
+          "slice": 17,
+          "phase_gradient_mean": 1.5440483167191665,
+          "hermitian_error": 1.586979126279577,
+          "mean_coherence": 0.04069739659608636,
+          "phase_entropy": 7.997074596608588,
+          "quadrant_consistency": 0.00684871525105282
+        },
+        {
+          "slice": 18,
+          "phase_gradient_mean": 1.5322926500123826,
+          "hermitian_error": 1.6052706282944884,
+          "mean_coherence": 0.03605505631786462,
+          "phase_entropy": 7.997201754064333,
+          "quadrant_consistency": 0.012269944210397968
+        },
+        {
+          "slice": 19,
+          "phase_gradient_mean": 1.5248249908525018,
+          "hermitian_error": 1.5968527822319545,
+          "mean_coherence": 0.036600283239668845,
+          "phase_entropy": 7.996838105813807,
+          "quadrant_consistency": 0.0060673401954166525
+        },
+        {
+          "slice": 20,
+          "phase_gradient_mean": 1.5116991026966264,
+          "hermitian_error": 1.601052677605454,
+          "mean_coherence": 0.03715410787947758,
+          "phase_entropy": 7.997156068330325,
+          "quadrant_consistency": 0.012999257663015875
+        },
+        {
+          "slice": 21,
+          "phase_gradient_mean": 1.5054124232613932,
+          "hermitian_error": 1.5848261453861516,
+          "mean_coherence": 0.037734572626625724,
+          "phase_entropy": 7.996911788849986,
+          "quadrant_consistency": 0.013818706536115204
+        },
+        {
+          "slice": 22,
+          "phase_gradient_mean": 1.5089296472350928,
+          "hermitian_error": 1.5876609041425085,
+          "mean_coherence": 0.04350991828378756,
+          "phase_entropy": 7.99736704140347,
+          "quadrant_consistency": 0.016320562509171445
+        },
+        {
+          "slice": 23,
+          "phase_gradient_mean": 1.5094069492308533,
+          "hermitian_error": 1.6098298039602392,
+          "mean_coherence": 0.05158872692220845,
+          "phase_entropy": 7.997451941284387,
+          "quadrant_consistency": 0.018593363149742217
+        },
+        {
+          "slice": 24,
+          "phase_gradient_mean": 1.5198117943656086,
+          "hermitian_error": 1.5883117066630976,
+          "mean_coherence": 0.047668715385151,
+          "phase_entropy": 7.997587118362173,
+          "quadrant_consistency": 0.006816461163514477
+        },
+        {
+          "slice": 25,
+          "phase_gradient_mean": 1.5046450932506503,
+          "hermitian_error": 1.5927791533377214,
+          "mean_coherence": 0.04123390984963607,
+          "phase_entropy": 7.997211668528411,
+          "quadrant_consistency": 0.005678017994230198
+        },
+        {
+          "slice": 26,
+          "phase_gradient_mean": 1.5176650169086034,
+          "hermitian_error": 1.5946122909750624,
+          "mean_coherence": 0.04460616548169851,
+          "phase_entropy": 7.997677782776098,
+          "quadrant_consistency": 0.013429027208958206
+        },
+        {
+          "slice": 27,
+          "phase_gradient_mean": 1.4946057377841493,
+          "hermitian_error": 1.6115478331692485,
+          "mean_coherence": 0.04193552283066319,
+          "phase_entropy": 7.996914709494014,
+          "quadrant_consistency": 0.005722684067861531
+        },
+        {
+          "slice": 28,
+          "phase_gradient_mean": 1.4865596027277395,
+          "hermitian_error": 1.6050828223037128,
+          "mean_coherence": 0.04177268743188166,
+          "phase_entropy": 7.997778299151452,
+          "quadrant_consistency": 0.001418703500782408
+        },
+        {
+          "slice": 29,
+          "phase_gradient_mean": 1.4780490560062414,
+          "hermitian_error": 1.6009146174388666,
+          "mean_coherence": 0.04746339105337957,
+          "phase_entropy": 7.99710875279792,
+          "quadrant_consistency": 0.02059201595284057
+        },
+        {
+          "slice": 30,
+          "phase_gradient_mean": 1.485390417313274,
+          "hermitian_error": 1.6133441981049286,
+          "mean_coherence": 0.04870671255116063,
+          "phase_entropy": 7.997334215819842,
+          "quadrant_consistency": 0.0090049147402903
+        },
+        {
+          "slice": 31,
+          "phase_gradient_mean": 1.4953801037475989,
+          "hermitian_error": 1.6100729620168877,
+          "mean_coherence": 0.04417436777235449,
+          "phase_entropy": 7.99661941946087,
+          "quadrant_consistency": 0.027248455410382472
+        },
+        {
+          "slice": 32,
+          "phase_gradient_mean": 1.4955727811497184,
+          "hermitian_error": 1.5987073564540135,
+          "mean_coherence": 0.04437206565133713,
+          "phase_entropy": 7.997025628718025,
+          "quadrant_consistency": 0.0214270288566199
+        },
+        {
+          "slice": 33,
+          "phase_gradient_mean": 1.4962416194390467,
+          "hermitian_error": 1.5983720328964706,
+          "mean_coherence": 0.04868477834625178,
+          "phase_entropy": 7.997188600306092,
+          "quadrant_consistency": 0.024041878582687658
+        },
+        {
+          "slice": 34,
+          "phase_gradient_mean": 1.5161832433493823,
+          "hermitian_error": 1.5963573717521635,
+          "mean_coherence": 0.04775366055701926,
+          "phase_entropy": 7.9971172841900895,
+          "quadrant_consistency": 0.025201740895244337
+        },
+        {
+          "slice": 35,
+          "phase_gradient_mean": 1.515477746043564,
+          "hermitian_error": 1.6034043307028802,
+          "mean_coherence": 0.051173884473957196,
+          "phase_entropy": 7.997344959395102,
+          "quadrant_consistency": 0.019198647906794937
+        },
+        {
+          "slice": 36,
+          "phase_gradient_mean": 1.5190247025082535,
+          "hermitian_error": 1.5974824787522448,
+          "mean_coherence": 0.04679728179094942,
+          "phase_entropy": 7.997566740098742,
+          "quadrant_consistency": 0.01463535864138827
+        },
+        {
+          "slice": 37,
+          "phase_gradient_mean": 1.5374289329458506,
+          "hermitian_error": 1.5770778768497098,
+          "mean_coherence": 0.0526628183341307,
+          "phase_entropy": 7.997583411762779,
+          "quadrant_consistency": 0.03042679981946095
+        },
+        {
+          "slice": 38,
+          "phase_gradient_mean": 1.5429841367172283,
+          "hermitian_error": 1.5806337326580282,
+          "mean_coherence": 0.05521446418357513,
+          "phase_entropy": 7.997626690313229,
+          "quadrant_consistency": 0.01162318109726424
+        },
+        {
+          "slice": 39,
+          "phase_gradient_mean": 1.5469047944488465,
+          "hermitian_error": 1.574295688008387,
+          "mean_coherence": 0.04643403991683994,
+          "phase_entropy": 7.996684870182202,
+          "quadrant_consistency": 0.01957578491843042
+        },
+        {
+          "slice": 40,
+          "phase_gradient_mean": 1.541155745203397,
+          "hermitian_error": 1.5853180576003143,
+          "mean_coherence": 0.04209250948200789,
+          "phase_entropy": 7.99686496996635,
+          "quadrant_consistency": 0.024310538184628666
+        },
+        {
+          "slice": 41,
+          "phase_gradient_mean": 1.5228412409115915,
+          "hermitian_error": 1.5913882666313597,
+          "mean_coherence": 0.051756493050378716,
+          "phase_entropy": 7.997125052999843,
+          "quadrant_consistency": 0.014736436285943766
+        },
+        {
+          "slice": 42,
+          "phase_gradient_mean": 1.5263560915386476,
+          "hermitian_error": 1.577472898485912,
+          "mean_coherence": 0.05523472308684324,
+          "phase_entropy": 7.997278581512031,
+          "quadrant_consistency": 0.005145532135949744
+        },
+        {
+          "slice": 43,
+          "phase_gradient_mean": 1.5236854063287755,
+          "hermitian_error": 1.588610074736924,
+          "mean_coherence": 0.05770785075953101,
+          "phase_entropy": 7.997145375476528,
+          "quadrant_consistency": 0.01421692179493218
+        },
+        {
+          "slice": 44,
+          "phase_gradient_mean": 1.5278843451321458,
+          "hermitian_error": 1.5792853760258292,
+          "mean_coherence": 0.05713002716462921,
+          "phase_entropy": 7.996964300069671,
+          "quadrant_consistency": 0.007414767744254913
+        },
+        {
+          "slice": 45,
+          "phase_gradient_mean": 1.5872329401616594,
+          "hermitian_error": 1.5112226908684547,
+          "mean_coherence": 0.04911388400823858,
+          "phase_entropy": 7.997352396693465,
+          "quadrant_consistency": 0.01380651012958018
+        },
+        {
+          "slice": 46,
+          "phase_gradient_mean": 1.803147597755458,
+          "hermitian_error": 1.3551004593695102,
+          "mean_coherence": 0.041168300103505445,
+          "phase_entropy": 7.997466315734694,
+          "quadrant_consistency": 0.019874091372077844
+        },
+        {
+          "slice": 47,
+          "phase_gradient_mean": 1.6312417418953138,
+          "hermitian_error": 1.4959329750192498,
+          "mean_coherence": 0.047798169080850064,
+          "phase_entropy": 7.996781559632987,
+          "quadrant_consistency": 0.017245628095314314
+        },
+        {
+          "slice": 48,
+          "phase_gradient_mean": 1.6303280352444693,
+          "hermitian_error": 1.5017384905764808,
+          "mean_coherence": 0.04705509024910941,
+          "phase_entropy": 7.997142676111776,
+          "quadrant_consistency": 0.01266901364948264
+        },
+        {
+          "slice": 49,
+          "phase_gradient_mean": 1.625118633850763,
+          "hermitian_error": 1.513592779936984,
+          "mean_coherence": 0.04133100383341408,
+          "phase_entropy": 7.99688179404572,
+          "quadrant_consistency": 0.007414226395285247
+        },
+        {
+          "slice": 50,
+          "phase_gradient_mean": 1.649490483597413,
+          "hermitian_error": 1.4749417066681283,
+          "mean_coherence": 0.040533490594467265,
+          "phase_entropy": 7.997011859284509,
+          "quadrant_consistency": 0.005425983251834983
+        },
+        {
+          "slice": 51,
+          "phase_gradient_mean": 1.747779100933164,
+          "hermitian_error": 1.3655726365502368,
+          "mean_coherence": 0.041176573978698824,
+          "phase_entropy": 7.997255474755194,
+          "quadrant_consistency": 0.010891323789677623
+        },
+        {
+          "slice": 52,
+          "phase_gradient_mean": 1.718439484548099,
+          "hermitian_error": 1.5559243618695342,
+          "mean_coherence": 0.049675145320003666,
+          "phase_entropy": 7.9974130905833585,
+          "quadrant_consistency": 0.016827407170434048
+        },
+        {
+          "slice": 53,
+          "phase_gradient_mean": 1.740502081998421,
+          "hermitian_error": 1.472777078439147,
+          "mean_coherence": 0.041181525011700325,
+          "phase_entropy": 7.997166546727837,
+          "quadrant_consistency": 0.0055470721296334985
+        },
+        {
+          "slice": 54,
+          "phase_gradient_mean": 1.7711795793854623,
+          "hermitian_error": 1.5099681365359232,
+          "mean_coherence": 0.03999263366986793,
+          "phase_entropy": 7.997667999950494,
+          "quadrant_consistency": 0.01019998481157623
+        },
+        {
+          "slice": 55,
+          "phase_gradient_mean": 1.7257690938092227,
+          "hermitian_error": 1.4529656754032518,
+          "mean_coherence": 0.04700735165254522,
+          "phase_entropy": 7.9973175443049245,
+          "quadrant_consistency": 0.016671222637504965
+        },
+        {
+          "slice": 56,
+          "phase_gradient_mean": 1.6783877691670919,
+          "hermitian_error": 1.5968625492964899,
+          "mean_coherence": 0.039910978670561294,
+          "phase_entropy": 7.996604524204706,
+          "quadrant_consistency": 0.0055368300714706475
+        },
+        {
+          "slice": 57,
+          "phase_gradient_mean": 1.628502074612327,
+          "hermitian_error": 1.5597573697056815,
+          "mean_coherence": 0.039306882071084924,
+          "phase_entropy": 7.9972218315481225,
+          "quadrant_consistency": 0.007213807275240124
+        },
+        {
+          "slice": 58,
+          "phase_gradient_mean": 1.638951482010052,
+          "hermitian_error": 1.5801823568996491,
+          "mean_coherence": 0.04360293420653805,
+          "phase_entropy": 7.997641358133185,
+          "quadrant_consistency": 0.011752586106877936
+        },
+        {
+          "slice": 59,
+          "phase_gradient_mean": 1.546657259529964,
+          "hermitian_error": 1.628115002590992,
+          "mean_coherence": 0.03705709904083828,
+          "phase_entropy": 7.996594043810184,
+          "quadrant_consistency": 0.007273946972319777
+        },
+        {
+          "slice": 60,
+          "phase_gradient_mean": 1.5348375383789223,
+          "hermitian_error": 1.5773630495573712,
+          "mean_coherence": 0.03259471802253242,
+          "phase_entropy": 7.997218876283185,
+          "quadrant_consistency": 0.008169165918888584
+        },
+        {
+          "slice": 61,
+          "phase_gradient_mean": 1.5472030681226228,
+          "hermitian_error": 1.6019952607478734,
+          "mean_coherence": 0.04194865068231844,
+          "phase_entropy": 7.998043116292095,
+          "quadrant_consistency": 0.011332634906313166
+        },
+        {
+          "slice": 62,
+          "phase_gradient_mean": 1.5389381899709544,
+          "hermitian_error": 1.6044330466402223,
+          "mean_coherence": 0.03979969152422641,
+          "phase_entropy": 7.996803078709732,
+          "quadrant_consistency": 0.007584745354119376
+        },
+        {
+          "slice": 63,
+          "phase_gradient_mean": 1.5502337245323061,
+          "hermitian_error": 1.5548877380898034,
+          "mean_coherence": 0.039704506117311064,
+          "phase_entropy": 7.997559912563886,
+          "quadrant_consistency": 0.015208860718984162
+        },
+        {
+          "slice": 64,
+          "phase_gradient_mean": 1.5811675465381017,
+          "hermitian_error": 1.6069498783782712,
+          "mean_coherence": 0.04627559973038676,
+          "phase_entropy": 7.997443242186613,
+          "quadrant_consistency": 0.012707279118960186
+        },
+        {
+          "slice": 65,
+          "phase_gradient_mean": 1.5507963560548697,
+          "hermitian_error": 1.5918524911232832,
+          "mean_coherence": 0.047042128176909906,
+          "phase_entropy": 7.997907837497756,
+          "quadrant_consistency": 0.010016108977703303
+        },
+        {
+          "slice": 66,
+          "phase_gradient_mean": 1.5539334083150678,
+          "hermitian_error": 1.6643960266652593,
+          "mean_coherence": 0.04433183351935296,
+          "phase_entropy": 7.996968855038904,
+          "quadrant_consistency": 0.0202326137658073
+        },
+        {
+          "slice": 67,
+          "phase_gradient_mean": 1.5899236451061114,
+          "hermitian_error": 1.6021853507203696,
+          "mean_coherence": 0.03900356388907809,
+          "phase_entropy": 7.9972771586441365,
+          "quadrant_consistency": 0.008153943113758774
+        },
+        {
+          "slice": 68,
+          "phase_gradient_mean": 1.587897153013131,
+          "hermitian_error": 1.607127659470682,
+          "mean_coherence": 0.03878702524266073,
+          "phase_entropy": 7.997206057196088,
+          "quadrant_consistency": 0.017751443461395355
+        },
+        {
+          "slice": 69,
+          "phase_gradient_mean": 1.56153680053644,
+          "hermitian_error": 1.600276388789026,
+          "mean_coherence": 0.04294090019806381,
+          "phase_entropy": 7.9969894533441614,
+          "quadrant_consistency": 0.01381976436244089
+        },
+        {
+          "slice": 70,
+          "phase_gradient_mean": 1.5792148892611944,
+          "hermitian_error": 1.6409584007624118,
+          "mean_coherence": 0.04361365782632036,
+          "phase_entropy": 7.997059228572098,
+          "quadrant_consistency": 0.016066705827217784
+        },
+        {
+          "slice": 71,
+          "phase_gradient_mean": 1.5858795881037682,
+          "hermitian_error": 1.6226427259318679,
+          "mean_coherence": 0.0464551644493614,
+          "phase_entropy": 7.997291329446874,
+          "quadrant_consistency": 0.016285656774144237
+        },
+        {
+          "slice": 72,
+          "phase_gradient_mean": 1.5862305848320797,
+          "hermitian_error": 1.6321323746036782,
+          "mean_coherence": 0.040980315207137484,
+          "phase_entropy": 7.997246118510718,
+          "quadrant_consistency": 0.0027509772389001513
+        },
+        {
+          "slice": 73,
+          "phase_gradient_mean": 1.5895526792422399,
+          "hermitian_error": 1.643655403752729,
+          "mean_coherence": 0.046734294181534845,
+          "phase_entropy": 7.996626533100685,
+          "quadrant_consistency": 0.0038965409934110878
+        },
+        {
+          "slice": 74,
+          "phase_gradient_mean": 1.6183380319166234,
+          "hermitian_error": 1.621627330902803,
+          "mean_coherence": 0.04607202010188897,
+          "phase_entropy": 7.996800271156103,
+          "quadrant_consistency": 0.0036030721547569556
+        },
+        {
+          "slice": 75,
+          "phase_gradient_mean": 1.5879661396671305,
+          "hermitian_error": 1.5797718184714769,
+          "mean_coherence": 0.04653302959317315,
+          "phase_entropy": 7.996969355786199,
+          "quadrant_consistency": 0.012820326865341002
+        },
+        {
+          "slice": 76,
+          "phase_gradient_mean": 1.604186238512077,
+          "hermitian_error": 1.554064702816925,
+          "mean_coherence": 0.04710255342971515,
+          "phase_entropy": 7.997068625458924,
+          "quadrant_consistency": 0.011616071335469456
+        },
+        {
+          "slice": 77,
+          "phase_gradient_mean": 1.59833379653606,
+          "hermitian_error": 1.583916912093569,
+          "mean_coherence": 0.03928431635341059,
+          "phase_entropy": 7.997467633281443,
+          "quadrant_consistency": 0.00852911459550888
+        },
+        {
+          "slice": 78,
+          "phase_gradient_mean": 1.6060869375264868,
+          "hermitian_error": 1.6208689665012934,
+          "mean_coherence": 0.04933396029964911,
+          "phase_entropy": 7.997375691787806,
+          "quadrant_consistency": 0.0039919639842875025
+        },
+        {
+          "slice": 79,
+          "phase_gradient_mean": 1.5797178445790536,
+          "hermitian_error": 1.6100236748775134,
+          "mean_coherence": 0.05730024378444796,
+          "phase_entropy": 7.996926862361274,
+          "quadrant_consistency": 0.002997368225391533
+        },
+        {
+          "slice": 80,
+          "phase_gradient_mean": 1.603862882214624,
+          "hermitian_error": 1.5524512783078577,
+          "mean_coherence": 0.05062425851413723,
+          "phase_entropy": 7.997648503154402,
+          "quadrant_consistency": 0.013539489869270576
+        },
+        {
+          "slice": 81,
+          "phase_gradient_mean": 1.6111879506967957,
+          "hermitian_error": 1.5389587956052204,
+          "mean_coherence": 0.04143893287685309,
+          "phase_entropy": 7.997776543097352,
+          "quadrant_consistency": 0.012992902817141183
+        },
+        {
+          "slice": 82,
+          "phase_gradient_mean": 1.6192667931798186,
+          "hermitian_error": 1.5147453817760956,
+          "mean_coherence": 0.05203705499947548,
+          "phase_entropy": 7.997463851419724,
+          "quadrant_consistency": 0.014660847696661537
+        },
+        {
+          "slice": 83,
+          "phase_gradient_mean": 1.6591552098583033,
+          "hermitian_error": 1.4853649398940503,
+          "mean_coherence": 0.05147118512125223,
+          "phase_entropy": 7.997348108692343,
+          "quadrant_consistency": 0.011278132272070491
+        },
+        {
+          "slice": 84,
+          "phase_gradient_mean": 1.6421914895835361,
+          "hermitian_error": 1.5003501623460234,
+          "mean_coherence": 0.03750104805389557,
+          "phase_entropy": 7.997228311385559,
+          "quadrant_consistency": 0.01282621889180953
+        },
+        {
+          "slice": 85,
+          "phase_gradient_mean": 1.6289020646268524,
+          "hermitian_error": 1.5073888791102745,
+          "mean_coherence": 0.043667987387161857,
+          "phase_entropy": 7.996558903068515,
+          "quadrant_consistency": 0.01290141015702873
+        },
+        {
+          "slice": 86,
+          "phase_gradient_mean": 1.6642273026059344,
+          "hermitian_error": 1.4596239485971276,
+          "mean_coherence": 0.040974181453411515,
+          "phase_entropy": 7.997566117612478,
+          "quadrant_consistency": 0.024963846659686123
+        },
+        {
+          "slice": 87,
+          "phase_gradient_mean": 1.6088024639096261,
+          "hermitian_error": 1.507202231165088,
+          "mean_coherence": 0.04292481860808011,
+          "phase_entropy": 7.99725120741753,
+          "quadrant_consistency": 0.01094079873406496
+        },
+        {
+          "slice": 88,
+          "phase_gradient_mean": 1.534999350241749,
+          "hermitian_error": 1.5940711606046505,
+          "mean_coherence": 0.0540683594834551,
+          "phase_entropy": 7.997497075084079,
+          "quadrant_consistency": 0.007771517020928939
+        }
+      ],
+      "plots": {
+        "summary": "summary.png",
+        "differential": "differential.png",
+        "radiomics": "radiomics.png",
+        "phase": "phase.png",
+        "gallery": "gallery.png"
+      }
+    }
+  }
+}

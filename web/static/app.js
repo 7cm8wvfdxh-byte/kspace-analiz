@@ -582,3 +582,18 @@ function update3DView() {
 document.addEventListener('DOMContentLoaded', () => {
     loadStudies();
 });
+
+// GLOBAL ERROR HANDLER FOR DEBUGGING
+window.onerror = function (msg, url, line, col, error) {
+    alert("Error: " + msg + "\nLine: " + line);
+    return false;
+};
+
+// Check if Three.js is really loaded
+setTimeout(() => {
+    if (typeof THREE === 'undefined') {
+        alert("CRITICAL: Three.js did NOT load! Check internet.");
+    } else {
+        console.log("Three.js loaded successfully.");
+    }
+}, 3000);

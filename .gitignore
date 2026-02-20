@@ -10,3 +10,10 @@ venv/
 *.log
 web/static/uploads/
 web/static/results/
+results_*/
+*.png
+*.gif
+*.csv
+DICOMDIR
+# Ignore cryptic DICOM folders (hex names)
+[0-9a-f][0-9a-f][0-9a-f][0-9a-f]*

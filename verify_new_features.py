@@ -3,7 +3,7 @@ import os
 import time
 import shutil
 
-BASE_URL = "http://localhost:8005"
+BASE_URL = "http://localhost:8000"
 DICOM_DIR = r"c:\Users\TUGRUL\.gemini\antigravity\scratch\dicom_kspace\401c5659\f2666859\1057d9eb"
 
 def get_studies():
